@@ -35,7 +35,7 @@
     "globby": "^11.0.2",
     "graphql": "^15.5.0",
     "graphql-request": "^3.4.0",
-    "graphql-tag": "^2.11.0",
+    "graphql-tag": "2.11.0",
     "gray-matter": "^4.0.2",
     "gsap": "./lib/animations/gsap-bonus.tgz",
     "keen-slider": "^5.2.2",
