@@ -32,7 +32,7 @@
     "@sindresorhus/slugify": "^1.1.0",
     "classnames": "^2.2.6",
     "formidable-serverless": "^1.1.1",
-    "globby": "^11.0.2",
+    "globby": "11.0.4",
     "graphql": "^15.5.0",
     "graphql-request": "^3.4.0",
     "graphql-tag": "2.11.0",
