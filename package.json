@@ -48,7 +48,7 @@
     "next-transpile-modules": "^6.3.0",
     "prism-react-renderer": "^1.1.1",
     "react": "17.0.2",
-    "react-collapsible": "^2.8.3",
+    "react-collapsible": "2.8.4",
     "react-dom": "17.0.2",
     "react-hook-form": "^6.2.0",
     "react-icons": "^3.10.0",
