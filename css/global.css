@@ -1,0 +1,61 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./docsearch.css";
+
+/* Global Styles
+   ========================================================================== */
+:root {
+  /* Color Scheme */
+  --black: #000;
+  --white: #fff;
+  --green: #00eb88;
+  --blue: #3f3fe2;
+  --gray: #a5a5a5;
+  --gray--dark: #666;
+  --gray--light: #e5e5e5;
+  --gradient: linear-gradient(90deg, #00a55f 0%, #4cf1ac 100%);
+
+  /* Fonts */
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "TT Firs Neue", sans-serif;
+
+  /* Header */
+  --header-min-height: 125px;
+  --header-min-height-tight: 100px;
+
+  /* Misc */
+  --max-width: 80.556vw;
+  --spacer: 5.556vw;
+  --spacer-lg: 11.111vw;
+  --spacer--negative: -5.556vw;
+  --spacer-lg--negative: -11.111vw;
+  --radius: 8px;
+  --radius-s: 4px;
+
+  font-variant-ligatures: common-ligatures;
+
+  font-family: var(--font-primary);
+}
+
+.hide__section,
+.c--hide {
+  opacity: 0;
+}
+
+.Collapsible {
+  margin-top: 12px;
+}
+
+.Collapsible__contentOuter {
+  margin-left: 22px;
+}
+
+.is-open {
+  color: inherit !important;
+  cursor: pointer;
+}
+
+.Collapsible__contentInner {
+  display: flex;
+  flex-direction: column;
+}
