@@ -12,7 +12,7 @@ const headProps: HeadProps = {
     title: "Jobs",
     description: "Join Us. From Anywhere.",
     url: "https://livepeer.org/jobs",
-    siteName: "Livepeer.org",
+    siteName: "Candle.org",
     image: "https://livepeer.org/OG.png",
     twitterUsername: "@LivepeerOrg",
   },
@@ -33,7 +33,7 @@ const Page = ({ positions }) => {
       <Container variant="hero">
         <Heading
           sx={{ variant: ["text.heading.hero", "text.heading.hero"], mb: 4 }}>
-          Join Livepeer, Inc.
+          Join Candle, Inc.
         </Heading>
       </Container>
       <Container sx={{ maxWidth: 960, margin: "0 auto" }}>

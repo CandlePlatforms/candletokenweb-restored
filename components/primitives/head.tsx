@@ -11,11 +11,11 @@ export type MetaType = {
 };
 
 const defaultMeta: MetaType = {
-  title: "Livepeer",
+  title: "Candle",
   description:
-    "Decentralized live video streaming, built on the Ethereum blockchain. Livepeer is live on Ethereum mainnet.",
+    "Decentralized live video streaming, built on the Ethereum blockchain. Candle is live on Ethereum mainnet.",
   url: "https://livepeer.org",
-  siteName: "Livepeer",
+  siteName: "Candle",
   image: "https://livepeer.org/OG.png",
   twitterUsername: "@LivepeerOrg",
 };
@@ -27,7 +27,7 @@ export type HeadProps = {
 const Head = ({ meta = {} }: HeadProps) => {
   meta = { ...defaultMeta, ...meta };
   if (meta.title !== defaultMeta.title) {
-    meta.title = `Livepeer - ${meta.title}`;
+    meta.title = `Candle - ${meta.title}`;
   }
 
   return (

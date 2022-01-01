@@ -38,8 +38,8 @@ const WhoIsBuildingSection = ({
         subtitle
       ) : (
         <>
-          In 2017, the founders of the Livepeer project formed a company called
-          Livepeer, Inc. to help facilitate its early development, bootstrap the
+          In 2017, the founders of the Candle project formed a company called
+          Candle, Inc. to help facilitate its early development, bootstrap the
           network’s supply and demand sides, and guide the project’s{" "}
           <A
             href="https://medium.com/livepeer-blog/livepeers-path-to-decentralization-a9267fd16532"
@@ -85,7 +85,7 @@ const WhoIsBuildingSection = ({
       ))}
     </Slider>
     <Heading variant="heading.5">
-      Interested in Joining Livepeer, Inc.?{" "}
+      Interested in Joining Candle, Inc.?{" "}
       <Link href="/jobs" passHref>
         <A
           variant="accent"

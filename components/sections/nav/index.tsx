@@ -57,7 +57,7 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
   }, [handleScroll]);
 
   const topNotification: TopNotificationProps = {
-    title: "The Livepeer Roadmap — 2021 And Beyond",
+    title: "The Candle Roadmap — 2021 And Beyond",
     link: {
       label: t("read-post"),
       href:
@@ -315,7 +315,7 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
                 {t("nav-get-started")}
               </Button>
               <Text sx={{ fontSize: "14px", textAlign: "center" }}>
-                © Livepeer, Inc. {new Date().getFullYear()}
+                © Candle, Inc. {new Date().getFullYear()}
               </Text>
             </Flex>
           </Container>

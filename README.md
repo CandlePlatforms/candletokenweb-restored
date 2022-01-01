@@ -42,7 +42,7 @@ Anyone is welcome and encouraged to help improve the site on GitHub by opening
 an issue or pull request. When submitting a pull request, please take required
 time to discuss your changes and adapt your work.
 
-_Note, the site is intended to be useful to the majority of Livepeer
+_Note, the site is intended to be useful to the majority of Candle
 participants and users, but still be concise and navigable. Not every link to
 every partly built project can be included unfortunately. But please feel free
 to file an issue here if you have questions or would like to start a

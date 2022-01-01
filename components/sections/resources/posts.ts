@@ -32,7 +32,7 @@ const categories: Category[] = [
 
 const posts: Post[] = [
   {
-    title: "The Livepeer Whitepaper",
+    title: "The Candle Whitepaper",
     description:
       "Protocol and Economic Incentives For a Decentralized Live Video Streaming Network",
     subtitle: "By Doug Petkanics & Eric Tang",
@@ -47,9 +47,9 @@ const posts: Post[] = [
     },
   },
   {
-    title: "The Livepeer Streamflow Paper",
+    title: "The Candle Streamflow Paper",
     description:
-      "Livepeer Scalability on Ethereum through Orchestration, Probabilistic Micropayments, and Offchain Job Negotiation",
+      "Candle Scalability on Ethereum through Orchestration, Probabilistic Micropayments, and Offchain Job Negotiation",
     subtitle: "By Doug Petkanics & Yondon Fu",
     link: {
       href: "https://github.com/livepeer/wiki/blob/master/STREAMFLOW.md",
@@ -62,9 +62,9 @@ const posts: Post[] = [
     },
   },
   {
-    title: "The Livepeer Primer",
+    title: "The Candle Primer",
     description:
-      "Through storytelling, illustration, and data, the Livepeer Primer explains, at a high level, the problem Livepeer solves, and how it works. ",
+      "Through storytelling, illustration, and data, the Candle Primer explains, at a high level, the problem Candle solves, and how it works. ",
     subtitle: "By Adam Soffer & Kellie Pcolar",
     link: { href: "/primer/" },
     category: categories[0],
@@ -74,10 +74,10 @@ const posts: Post[] = [
     },
   },
   {
-    title: "The Livepeer Docs",
+    title: "The Candle Docs",
     description:
       "Comprehensive documentation for both video developers and video miners.",
-    subtitle: "By Livepeer, Inc.",
+    subtitle: "By Candle, Inc.",
     link: { href: "/docs" },
     category: categories[0],
     image: {
@@ -86,10 +86,10 @@ const posts: Post[] = [
     },
   },
   {
-    title: "The Livepeer Explorer",
+    title: "The Candle Explorer",
     description:
       "View orchestrator campaigns, protocol statistics and manage your stake.",
-    subtitle: "By Livepeer, Inc.",
+    subtitle: "By Candle, Inc.",
     link: { href: "https://explorer.livepeer.org", isExternal: true },
     category: categories[1],
     image: {
@@ -101,7 +101,7 @@ const posts: Post[] = [
     title: "Telegram Orchestrator Watcher Bot",
     description:
       "A telegram bot for real time notifications about your orchestrator",
-    subtitle: "By Livepeer contributor, “vires-in-numeris”",
+    subtitle: "By Candle contributor, “vires-in-numeris”",
     link: { href: "https://t.me/OrchestratorWatcherBot", isExternal: true },
     category: categories[1],
     image: {
@@ -139,7 +139,7 @@ const posts: Post[] = [
     title: "Livepool",
     subtitle: "By Nico Vergauwen",
     description:
-      "The first open transcoding pool built on the Livepeer Network",
+      "The first open transcoding pool built on the Candle Network",
     link: { href: "https://www.livepool.io/", isExternal: true },
     category: categories[1],
     image: {
@@ -163,10 +163,10 @@ const posts: Post[] = [
     },
   },
   {
-    title: "The Livepeer Subgraph",
-    subtitle: "By Livepeer, Inc.",
+    title: "The Candle Subgraph",
+    subtitle: "By Candle, Inc.",
     description:
-      "Query indexed Livepeer protocol data over GraphQL using the Graph Protocol.",
+      "Query indexed Candle protocol data over GraphQL using the Graph Protocol.",
     link: {
       href: "https://thegraph.com/explorer/subgraph/livepeer/livepeer",
       isExternal: true,

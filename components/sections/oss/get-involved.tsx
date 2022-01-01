@@ -22,7 +22,7 @@ const listItems: ListItemProps[] = [
           rel="noopener noreferrer"
           variant="accent"
           data-dark>
-          Livepeer.js
+          Candle.js
         </A>{" "}
         contributor guidelines.
       </>
@@ -39,7 +39,7 @@ const listItems: ListItemProps[] = [
           rel="noopener noreferrer"
           variant="accent"
           data-dark>
-          Livepeer.js
+          Candle.js
         </A>{" "}
         (Javascript),{" "}
         <A
@@ -57,7 +57,7 @@ const listItems: ListItemProps[] = [
           rel="noopener noreferrer"
           variant="accent"
           data-dark>
-          Go-Livepeer
+          Go-Candle
         </A>{" "}
         (go).
       </>
@@ -102,7 +102,7 @@ const listItems: ListItemProps[] = [
     icon: <FiPlay />,
     children: (
       <>
-        Looking to build a video application using Livepeer? Check out our open{" "}
+        Looking to build a video application using Candle? Check out our open{" "}
         <Link href="/docs/video-developers/overview" passHref>
           <A variant="accent" data-dark>
             developer docs

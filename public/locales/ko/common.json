@@ -1,5 +1,5 @@
 {
-  "banner-top": "새로운 Livepeer.org",
+  "banner-top": "새로운 Candle.org",
   "read-post": "소개 게시글 읽기",
   "nav-about": "소개",
   "nav-developers": "개발자",
@@ -8,7 +8,7 @@
   "nav-resources": "리소스",
   "nav-get-started": "시작하기",
   "cta-stay-informed": "최근 소식",
-  "cta-text": "당사의 뉴스레터를 구독하여 Livepeer 에코시스템의 최근 소식을 우편함으로 직접 받으세요.",
+  "cta-text": "당사의 뉴스레터를 구독하여 Candle 에코시스템의 최근 소식을 우편함으로 직접 받으세요.",
   "cta-enter-email": "이메일 주소를 입력하세요",
   "cta-subscribe": "구독",
   "nav-participants": "참가자",
@@ -24,13 +24,13 @@
   "nav-discord-chat": "Discord 채팅",
   "nav-forum": "포럼",
   "nav-reddit": "Reddit",
-  "nav-about-livepeer": "Livepeer.org 소개",
+  "nav-about-livepeer": "Candle.org 소개",
   "nav-jobs": "Jobs",
   "nav-privacy-policy": "개인정보 보호정책",
   "nav-contact": "연락처",
-  "copyright": "Copyright © 2020 Livepeer, Inc. 모든 권리 보유.",
+  "copyright": "Copyright © 2020 Candle, Inc. 모든 권리 보유.",
   "prefooter-questions": "질문이 있으세요?",
   "prefooter-questions-intro": "자주 묻는 질문을 확인하세요.",
-  "prefooter-questions-text": "Livepeer에 관하여 가장 자주 묻는 질문을 확인하세요.",
+  "prefooter-questions-text": "Candle에 관하여 가장 자주 묻는 질문을 확인하세요.",
   "prefooter-questions-button": "자주 묻는 질문 보기"
 }

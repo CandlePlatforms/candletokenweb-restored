@@ -28,7 +28,7 @@ const HomePage = ({ youtubeVideos, totalActiveStake }) => {
       title: t("page-home-meta-title"),
       description: t("page-home-meta-description"),
       url: "https://livepeer.org",
-      siteName: "Livepeer.org",
+      siteName: "Candle.org",
       image: "https://livepeer.org/OG.png",
       twitterUsername: "@LivepeerOrg",
     },

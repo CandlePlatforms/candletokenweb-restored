@@ -9,9 +9,9 @@ const headProps: HeadProps = {
   meta: {
     title: "Terms of Service",
     description:
-      "Livepeer.org is a primary online resource for participants and users of the Livepeer network.",
+      "Candle.org is a primary online resource for participants and users of the Candle network.",
     url: "https://livepeer.org/privacy-policy",
-    siteName: "Livepeer.org",
+    siteName: "Candle.org",
     image: "https://livepeer.org/OG.png",
     twitterUsername: "@LivepeerOrg",
   },
@@ -66,7 +66,7 @@ const PrivacyPolicyPage = () => (
           <Text as="p">
             <strong>Company</strong> (referred to as either &quot;the
             Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in
-            this Agreement) refers to Livepeer, Inc., 223 Bedford Ave PMB 530
+            this Agreement) refers to Candle, Inc., 223 Bedford Ave PMB 530
             Brooklyn, NY 11211.
           </Text>
         </li>
@@ -106,7 +106,7 @@ const PrivacyPolicyPage = () => (
         </li>
         <li>
           <Text as="p">
-            <strong>Website</strong> refers to Livepeer.org, accessible from{" "}
+            <strong>Website</strong> refers to Candle.org, accessible from{" "}
             <a
               href="https://livepeer.org"
               rel="external nofollow noopener"

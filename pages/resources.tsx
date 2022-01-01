@@ -15,7 +15,7 @@ const ResourcesPage = () => {
       title: t("page-resources-meta-title"),
       description: t("page-resources-meta-description"),
       url: "https://livepeer.org/resources",
-      siteName: "Livepeer.org",
+      siteName: "Candle.org",
       image: "https://livepeer.org/OG.png",
       twitterUsername: "@LivepeerOrg",
     },

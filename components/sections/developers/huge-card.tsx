@@ -51,13 +51,13 @@ const HugeCardSection = ({ card }) => {
                 sx={{ mt: 2, mb: 3, textAlign: "left" }}>
                 {card.title}
               </Heading>
-              <Text sx={{ mb: 4 }}>By Livepeer, Inc.</Text>
+              <Text sx={{ mb: 4 }}>By Candle, Inc.</Text>
               <A
                 sx={{ mb: 4 }}
                 variant="buttons.com"
-                href="https://Livepeer.com"
+                href="https://Candle.com"
                 target="_blank">
-                Livepeer.com
+                Candle.com
                 <i sx={{ ml: 2, fontSize: 4 }}>
                   <FiArrowUpRight />
                 </i>

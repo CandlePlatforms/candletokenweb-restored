@@ -7,7 +7,7 @@ title: Subgraph API Entities
 Entities define the schema of the subgraph, and represent the data that can be
 queried. Within each entity are sets of fields that store useful information
 related to the entity. Below is a list of the available entities within the
-Livepeer Subgraph, and descriptions for the available fields.
+Candle Subgraph, and descriptions for the available fields.
 
 To see an interactive sandbox of all entities see the
 [Graph Explorer](https://thegraph.com/explorer/subgraph/livepeer/livepeer).
@@ -201,7 +201,7 @@ Block when round length was last updated
 <td valign="top">BigDecimal</td>
 <td>
 
-Livepeer Token supply
+Candle Token supply
 
 </td>
 </tr>
@@ -393,7 +393,7 @@ Service URI endpoint that can be used to send off-chain requests
 
 ### Round
 
-The Livepeer protocol is round based and each round is represented by some
+The Candle protocol is round based and each round is represented by some
 number of Ethereum blocks.
 
 <table>
@@ -501,7 +501,7 @@ Total active stake during the round
 <td valign="top">BigDecimal</td>
 <td>
 
-Total Livepeer token supply during the round
+Total Candle token supply during the round
 
 </td>
 </tr>
@@ -678,7 +678,7 @@ Last round that the delegator claimed reward and fee pool shares
 <td valign="top">BigDecimal</td>
 <td>
 
-Amount of Livepeer Token a delegator currently has bonded
+Amount of Candle Token a delegator currently has bonded
 
 </td>
 </tr>
@@ -687,7 +687,7 @@ Amount of Livepeer Token a delegator currently has bonded
 <td valign="top">BigDecimal</td>
 <td>
 
-Amount of Livepeer Token a delegator has bonded over its lifetime separate from
+Amount of Candle Token a delegator has bonded over its lifetime separate from
 rewards
 
 </td>
@@ -697,7 +697,7 @@ rewards
 <td valign="top">BigDecimal</td>
 <td>
 
-Amount of Livepeer Token a delegator has unbonded over its lifetime
+Amount of Candle Token a delegator has unbonded over its lifetime
 
 </td>
 </tr>
@@ -724,7 +724,7 @@ Amount of fees withdrawn
 <td valign="top">BigDecimal</td>
 <td>
 
-Amount of Livepeer Token the delegator has delegated
+Amount of Candle Token the delegator has delegated
 
 </td>
 </tr>
@@ -1121,7 +1121,7 @@ Total active stake during the day
 <td valign="top">BigDecimal</td>
 <td>
 
-Total Livepeer token supply during the day
+Total Candle token supply during the day
 
 </td>
 </tr>
@@ -1202,7 +1202,7 @@ Transcoder associated with the day
 ### Transaction
 
 Transaction entities are created for each Ethereum transaction that contains an
-interaction within Livepeer contracts.
+interaction within Candle contracts.
 
 <table>
 <thead>

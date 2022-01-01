@@ -22,7 +22,7 @@ const VideoMinerPage = ({ totalVolumeUSD, totalActiveNodes, totalMinutes }) => {
       title: t("page-video-miners-meta-title"),
       description: t("page-video-miners-meta-description"),
       url: "https://livepeer.org/video-miners",
-      siteName: "Livepeer.org",
+      siteName: "Candle.org",
       image: "https://livepeer.org/OG.png",
       twitterUsername: "@LivepeerOrg",
     },

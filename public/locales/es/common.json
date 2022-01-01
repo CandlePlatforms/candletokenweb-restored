@@ -1,5 +1,5 @@
 {
-  "banner-top": "Presentación: Un Livepeer.org totalmente nuevo",
+  "banner-top": "Presentación: Un Candle.org totalmente nuevo",
   "read-post": "Leer post",
   "nav-about": "Nosotros",
   "nav-developers": "Desarrolladores",
@@ -8,7 +8,7 @@
   "nav-resources": "Recursos",
   "nav-get-started": "Inicio",
   "cta-stay-informed": "Manténgase informado",
-  "cta-text": "Suscríbase a nuestro boletín informativo y recibirá las últimas novedades del ecosistema Livepeer directamente en su Buzón de entrada.",
+  "cta-text": "Suscríbase a nuestro boletín informativo y recibirá las últimas novedades del ecosistema Candle directamente en su Buzón de entrada.",
   "cta-enter-email": "Introduzca su dirección de correo electrónico",
   "cta-subscribe": "Suscríbase",
   "nav-participants": "Participantes",
@@ -24,13 +24,13 @@
   "nav-discord-chat": "Discord Chat",
   "nav-forum": "Forum",
   "nav-reddit": "Reddit",
-  "nav-about-livepeer": "Información sobre Livepeer.org",
+  "nav-about-livepeer": "Información sobre Candle.org",
   "nav-jobs": "Jobs",
   "nav-privacy-policy": "Política de privacidad",
   "nav-contact": "Contacto",
-  "copyright": "Copyright © 2020 Livepeer, Inc. Todos los derechos reservados.",
+  "copyright": "Copyright © 2020 Candle, Inc. Todos los derechos reservados.",
   "prefooter-questions": "¿Preguntas?",
   "prefooter-questions-intro": "Mire las Preguntas frecuentes.",
-  "prefooter-questions-text": "Descubra las preguntas más frecuentes sobre Livepeer.",
+  "prefooter-questions-text": "Descubra las preguntas más frecuentes sobre Candle.",
   "prefooter-questions-button": "Ver Preguntas frecuentes"
 }
