@@ -11,7 +11,7 @@ const ResourcesHeroSvg = () => (
       <g filter="url(#resources-hero-svg-filter0_d)">
         <path
           d="M13 8C13 3.58172 16.5817 0 21 0H487C491.418 0 495 3.58172 495 8V346C495 350.418 491.418 354 487 354H21C16.5817 354 13 350.418 13 346V8Z"
-          fill="#00EB88"
+          fill="#6fbeff"
         />
       </g>
       <path

@@ -20,7 +20,7 @@ export const Icon = () => {
       viewBox="0 0 56 56"
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
-      <rect width="56" height="56" rx="28" fill="#00EB88" />
+      <rect width="56" height="56" rx="28" fill="#6fbeff" />
       <path
         d="M32.6666 35L39.6666 28L32.6666 21"
         stroke="#131418"
@@ -43,7 +43,7 @@ export const IconMine = () => {
   return (
     <div
       sx={{
-        background: "#00EB88",
+        background: "#6fbeff",
         width: "56px",
         height: "56px",
         borderRadius: "56px",

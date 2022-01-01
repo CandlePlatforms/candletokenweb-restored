@@ -68,7 +68,7 @@ const StakeTokenSvg = () => (
         stroke="#666666"
       />
     </g>
-    <rect x="200" y="200" width="64" height="64" rx="32" fill="#00EB88" />
+    <rect x="200" y="200" width="64" height="64" rx="32" fill="#6fbeff" />
     <path d="M227 221H222V226H227V221Z" fill="#231F20" />
     <path d="M227 230H222V235H227V230Z" fill="#231F20" />
     <path d="M245 230H240V235H245V230Z" fill="#231F20" />

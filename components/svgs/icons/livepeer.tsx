@@ -42,7 +42,7 @@ const LivepeerIconSvg = ({ pushSx, isDark }: Props) => (
           width="1464.06"
           height="298.474"
           rx="8"
-          fill="#00EB88"
+          fill="#6fbeff"
         />
       </mask>
       <g mask="url(#livepeer-svg-mask1)">
