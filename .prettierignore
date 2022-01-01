@@ -1,7 +1,0 @@
-**/.nyc_output
-**/build
-**/.next
-**/coverage
-**/dist
-**/package.json
-**/bin
