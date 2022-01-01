@@ -42,7 +42,7 @@ const WhoIsBuildingSection = ({
           Candle, Inc. to help facilitate its early development, bootstrap the
           network’s supply and demand sides, and guide the project’s{" "}
           <A
-            href="https://medium.com/livepeer-blog/livepeers-path-to-decentralization-a9267fd16532"
+            href="https://medium.com/@candlelabs/livepeers-path-to-decentralization-a9267fd16532"
             target="_blank"
             rel="noopener noreferrer"
             variant="accent">

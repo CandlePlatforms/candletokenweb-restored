@@ -86,7 +86,7 @@ const listItems: ListItemProps[] = [
       <>
         Chat with the development team in{" "}
         <A
-          href="https://discord.gg/uaPhtyrWsF"
+          href="https://discord.gg/4nABzqsX8C"
           target="_blank"
           rel="noopener noreferrer"
           variant="accent"

@@ -80,27 +80,27 @@ const Footer = ({
       items: [
         {
           label: "Twitter",
-          href: "https://twitter.com/LivepeerOrg",
+          href: "https://twitter.com/Candle_Labs",
           isExternal: true,
         },
         {
           label: "Discord Chat",
-          href: "https://discord.gg/uaPhtyrWsF",
+          href: "https://discord.gg/4nABzqsX8C",
           isExternal: true,
         },
         {
           label: "Blog",
-          href: "https://medium.com/livepeer-blog",
+          href: "https://medium.com/@candlelabs",
           isExternal: true,
         },
         {
           label: "Forum",
-          href: "https://forum.livepeer.org/",
+          href: "https://community.candlelabs.org/",
           isExternal: true,
         },
         {
           label: "Reddit",
-          href: "https://www.reddit.com/r/livepeer/",
+          href: "https://www.reddit.com/r/cndl/",
           isExternal: true,
         },
       ],

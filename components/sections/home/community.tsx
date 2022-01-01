@@ -19,7 +19,7 @@ const links: IconLinkProps[] = [
         Join our&nbsp;<b>Discord Server</b>
       </>
     ),
-    href: "https://discord.gg/uaPhtyrWsF",
+    href: "https://discord.gg/4nABzqsX8C",
     isExternal: true,
   },
   {
@@ -29,17 +29,17 @@ const links: IconLinkProps[] = [
         reddit.com/r/<b>livepeer</b>
       </>
     ),
-    href: "https://www.reddit.com/r/livepeer/",
+    href: "https://www.reddit.com/r/cndl/",
     isExternal: true,
   },
   {
     icon: <FaTwitter />,
     label: (
       <>
-        twitter.com/<b>LivepeerOrg</b>
+        twitter.com/<b>Candle_Labs</b>
       </>
     ),
-    href: "https://twitter.com/LivepeerOrg",
+    href: "https://twitter.com/Candle_Labs",
     isExternal: true,
   },
   {
@@ -49,7 +49,7 @@ const links: IconLinkProps[] = [
         Join our forum on&nbsp;<b>Discourse</b>
       </>
     ),
-    href: "https://forum.livepeer.org/",
+    href: "https://community.candlelabs.org/",
     isExternal: true,
   },
 
@@ -60,17 +60,17 @@ const links: IconLinkProps[] = [
         Contact us on&nbsp;<b>Telegram</b>
       </>
     ),
-    href: "https://t.me/livepeerorg",
+    href: "https://t.me/CandleLabs",
     isExternal: true,
   },
   {
     icon: <FaMedium />,
     label: (
       <>
-        medium.com/<b>livepeer-blog</b>
+        medium.com/<b>CandleLabs</b>
       </>
     ),
-    href: "https://medium.com/livepeer-blog",
+    href: "https://medium.com/@candlelabs",
     isExternal: true,
   },
 ];
