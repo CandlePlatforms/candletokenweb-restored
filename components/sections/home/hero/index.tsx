@@ -3,7 +3,6 @@ import { jsx, Container, Heading, Text, Box, Link as A } from "theme-ui";
 import { useRef, useEffect, useState } from "react";
 import gsap, { Power1 } from "gsap";
 import Globe from "./globe";
-import VideoSwapper from "./video-swapper";
 import GlobeDot from "./globe-dots";
 import Divider from "components/primitives/divider";
 
@@ -14,20 +13,7 @@ const HomeHero = ({ title, subtitle, cta, videoLabel }) => {
   const headerRef = useRef<HTMLDivElement>(null);
   const dotsRef = useRef<HTMLDivElement>(null);
 
-  const videos = [
-    "/hero-videos/1.mp4",
-    "/hero-videos/2.mp4",
-    "/hero-videos/3.mp4",
-    "/hero-videos/4.mp4",
-  ];
-
-  const onVideoChange = () => {
-    if (globeDotIndex < 3) {
-      setGlobeDotIndex(globeDotIndex + 1);
-    } else {
-      setGlobeDotIndex(0);
-    }
-  };
+ 
 
   useEffect(() => {
     if (!dotsRef.current || !videoBoxRef.current) return;
@@ -116,7 +102,7 @@ const HomeHero = ({ title, subtitle, cta, videoLabel }) => {
                     sx={{
                       pr: ["2px", "4px"], // Fix text being clipped
                       background: ({ colors }) =>
-                        `linear-gradient(90deg, #00A55F 0%, ${colors.gradient.mid} 100%)`,
+                        `linear-gradient(90deg, #6fbeff 0%, ${colors.gradient.mid} 100%)`,
                       variant: "text.gradientBase",
                     }}>
                     World's
@@ -131,7 +117,7 @@ const HomeHero = ({ title, subtitle, cta, videoLabel }) => {
                     Open&nbsp;
                   </Text>
                   <br sx={{ display: ["none", null, "block"] }} />
-                  Decentralized Infrastructure
+                  Defi
                 </>
               )}
             </Heading>
@@ -224,11 +210,7 @@ const HomeHero = ({ title, subtitle, cta, videoLabel }) => {
               overflow: "hidden",
               opacity: 0,
             }}>
-            <VideoSwapper
-              videoLabel={videoLabel}
-              sources={videos}
-              onChange={onVideoChange}
-            />
+           
           </div>
         </Box>
       </Container>
