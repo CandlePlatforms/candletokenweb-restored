@@ -131,7 +131,7 @@ const HomeHero = ({ title, subtitle, cta, videoLabel }) => {
                     Open&nbsp;
                   </Text>
                   <br sx={{ display: ["none", null, "block"] }} />
-                  Video Infrastructure
+                  Decentralized Infrastructure
                 </>
               )}
             </Heading>
