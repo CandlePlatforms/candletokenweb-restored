@@ -1,7 +1,7 @@
-# livepeer.org
+# Candle
 
-Livepeer.org is a primary online resource for participants and users of the
-Livepeer network. It includes:
+Candle is a primary online resource for participants and users of the
+Candle network. It includes:
 
 - Useful getting started content
 - Community built resources
