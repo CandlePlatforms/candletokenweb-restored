@@ -60,10 +60,10 @@ const questions: Question[] = [
     category: categories[0],
   },
   {
-    question: "Who is Candle Inc.?",
+    question: "Who is Candle Labs, Inc.?",
     answer: (
       <>
-        Candle Inc. is the legal entity and core team shepherding the protocol
+        Candle Labs, Inc. is the legal entity and core team shepherding the protocol
         and moving it along its{" "}
         <AnswerLink
           href="https://medium.com/livepeer-blog/livepeers-path-to-decentralization-a9267fd16532"
@@ -82,7 +82,7 @@ const questions: Question[] = [
         of the Candle roadmap{" "}
         <AnswerLink
           label="here"
-          href="https://medium.com/livepeer-blog/livepeer-network-phases-b196ab42264b"
+          href="https://medium.com/candle-blog/candle-network-phases-b196ab42264b"
           isExternal
         />
         .
@@ -94,10 +94,10 @@ const questions: Question[] = [
     question: "What is the current implementation Candle team is working on?",
     answer: (
       <>
-        It is called “Streamflow” and you can read about it{" "}
+        It is called “Candle Burn” and you can read about it{" "}
         <AnswerLink
           label="here"
-          href="https://github.com/livepeer/wiki/blob/streamflow/STREAMFLOW.md"
+          href="https://github.com/candlelabs/"
           isExternal
         />
         .
@@ -112,13 +112,13 @@ const questions: Question[] = [
         You can find whitepaper{" "}
         <AnswerLink
           label="here"
-          href="https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md"
+          href="https://github.com/candlelabs/"
           isExternal
         />{" "}
         and the Streamflow paper{" "}
         <AnswerLink
           label="here"
-          href="https://github.com/livepeer/wiki/blob/master/STREAMFLOW.md"
+          href="https://github.com/candlelabs/"
           isExternal
         />
         .

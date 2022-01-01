@@ -13,8 +13,8 @@ export type MetaType = {
 const defaultMeta: MetaType = {
   title: "Candle",
   description:
-    "Decentralized live video streaming, built on the Ethereum blockchain. Candle is live on Ethereum mainnet.",
-  url: "https://livepeer.org",
+    "Decentralized applications and projects, built on the Ethereum blockchain. Candle is live on Ethereum mainnet.",
+  url: "https://candlelabs.org",
   siteName: "Candle",
   image: "https://livepeer.org/OG.png",
   twitterUsername: "@LivepeerOrg",
