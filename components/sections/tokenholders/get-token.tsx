@@ -17,7 +17,7 @@ const GetTokenSection = ({ title, card1, card2 }) => {
         isLink: true,
         isExternal: true,
         href:
-          "https://app.uniswap.org/#/swap?outputCurrency=0x58b6a8a3302369daec383334672404ee733ab239",
+          "https://app.uniswap.org/#/swap?outputCurrency=0xbc138bd20c98186cc0342c8e380953af0cb48ba8",
       },
       accent: "primary",
       headerIllustration: <StakeTokenSvg />,
@@ -30,7 +30,7 @@ const GetTokenSection = ({ title, card1, card2 }) => {
         label: card2.ctaText,
         isLink: true,
         isExternal: true,
-        href: "https://explorer.livepeer.org",
+        href: "https://explorer.candlelabs.org",
       },
       accent: "secondary",
       headerIllustration: <GetTokenSvg />,
