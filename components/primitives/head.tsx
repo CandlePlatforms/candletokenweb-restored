@@ -17,7 +17,7 @@ const defaultMeta: MetaType = {
   url: "https://candlelabs.org",
   siteName: "Candle",
   image: "https://livepeer.org/OG.png",
-  twitterUsername: "@LivepeerOrg",
+  twitterUsername: "@Candle_Labs",
 };
 
 export type HeadProps = {

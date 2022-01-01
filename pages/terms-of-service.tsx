@@ -13,7 +13,7 @@ const headProps: HeadProps = {
     url: "https://livepeer.org/privacy-policy",
     siteName: "Candle.org",
     image: "https://livepeer.org/OG.png",
-    twitterUsername: "@LivepeerOrg",
+    twitterUsername: "@Candle_Labs",
   },
 };
 

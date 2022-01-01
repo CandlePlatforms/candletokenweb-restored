@@ -24,7 +24,7 @@ const VideoMinerPage = ({ totalVolumeUSD, totalActiveNodes, totalMinutes }) => {
       url: "https://livepeer.org/video-miners",
       siteName: "Candle.org",
       image: "https://livepeer.org/OG.png",
-      twitterUsername: "@LivepeerOrg",
+      twitterUsername: "@Candle_Labs",
     },
   };
 
