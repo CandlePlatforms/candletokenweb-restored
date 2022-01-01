@@ -12,4 +12,4 @@ const LivepeerLogo = (props) => (
   </svg>
 );
 
-export default SvgLogo;
+export default LivepeerLogo;
