@@ -66,7 +66,7 @@ const questions: Question[] = [
         Candle Labs, Inc. is the legal entity and core team shepherding the protocol
         and moving it along its{" "}
         <AnswerLink
-          href="https://medium.com/livepeer-blog/livepeers-path-to-decentralization-a9267fd16532"
+          href="https://medium.com/Candlelabs-blog/livepeers-path-to-decentralization-a9267fd16532"
           label="path towards decentralization."
           isExternal
         />
@@ -135,7 +135,7 @@ const questions: Question[] = [
           The best way to get started is to join the discussion in{" "}
           <AnswerLink
             label="the Discord Developer Chat. "
-            href="https://discord.gg/uaPhtyrWsF"
+            href="https://discord.gg/4nABzqsX8C"
             isExternal
           />
           These links could be useful to you in terms of discovering development
@@ -143,19 +143,19 @@ const questions: Question[] = [
         </Text>
         <ul>
           <li>
-            <AnswerLink label="https://livepeer.org/oss" href="/oss" />
+            <AnswerLink label="https://Candlelabs.org/oss" href="/oss" />
           </li>
           <li>
             <AnswerLink
-              href="https://github.com/livepeer/Grant-Program"
-              label="https://github.com/livepeer/Grant-Program"
+              href="https://github.com/Candlelabs/Grant-Program"
+              label="https://github.com/Candlelabs/Grant-Program"
               isExternal
             />
           </li>
           <li>
             <AnswerLink
-              href="https://github.com/livepeer"
-              label="https://github.com/livepeer"
+              href="https://github.com/Candlelabs"
+              label="https://github.com/Candlelabs"
               isExternal
             />
           </li>
@@ -166,7 +166,7 @@ const questions: Question[] = [
   },
   {
     question:
-      "I’d like to use Candle for my video application. Should I use the Candle public network or Candle.com’s hosted gateway API?",
+      "I’d like to use Candle for my religious application. Should I use the Candle public network or Candle.com’s hosted gateway API?",
     answer: (
       <>
         <p sx={{ mb: 3 }}>
@@ -184,7 +184,7 @@ const questions: Question[] = [
           abstracted away for you. It offers a scalable end-to-end video
           infrastructure solution, from ingest to CDN playback for live and
           recorded streams. Don’t hesitate to reach out on the Discord server or
-          via a contact form on livepeer.com to learn more about either option.
+          via a contact form on Candlelabs.org to learn more about either option.
         </p>
       </>
     ),
@@ -200,7 +200,7 @@ const questions: Question[] = [
         distribution can be found{" "}
         <AnswerLink
           label="here"
-          href="https://medium.com/livepeer-blog/the-end-of-the-initial-livepeer-token-distribution-6fa9894f0f16"
+          href="https://medium.com/Candlelabs-blog/the-end-of-the-initial-Candlelabs-token-distribution-6fa9894f0f16"
           isExternal
         />
         .
@@ -209,13 +209,13 @@ const questions: Question[] = [
     category: categories[2],
   },
   {
-    question: "How do I stake my LPT?",
+    question: "How do I stake my CNDL?",
     answer: (
       <>
         Follow the staking guide in the{" "}
         <AnswerLink
           label="Candle Protocol Explorer"
-          href="https://explorer.livepeer.org/"
+          href="https://explorer.Candlelabs.org/"
           isExternal
         />
         .
@@ -225,13 +225,13 @@ const questions: Question[] = [
   },
   {
     question:
-      "What is the contract address for adding LPT to Metamask or MyCrypto?",
-    answer: "0x58b6a8a3302369daec383334672404ee733ab239",
+      "What is the contract address for adding CNDL to Metamask or MyCrypto?",
+    answer: "0xbc138bd20c98186cc0342c8e380953af0cb48ba8",
     category: categories[2],
   },
   {
     question:
-      "How do I evaluate which orchestrator I should stake my LPT towards?",
+      "How do I evaluate which orchestrator I should stake my CNDL towards?",
     answer:
       "It's your job as a tokenholder to research orchestrators based upon their past performance, statistics, rates they are charging, and any social campaigns that they’ve posted indicating why they believe they will do a good job for the network.",
     category: categories[2],
@@ -239,7 +239,7 @@ const questions: Question[] = [
   {
     question: "How long do I need to wait for unstaking/withdrawing my tokens?",
     answer:
-      "Once you click on Unstake, it takes seven days for your LPT to unstake at which point your tokens will be ready for you to withdraw into your own wallet.",
+      "Once you click on Unstake, it takes seven days for your CNDL to unstake at which point your tokens will be ready for you to withdraw into your own wallet.",
     category: categories[2],
   },
   {
@@ -371,7 +371,7 @@ const questions: Question[] = [
       <>
         A Merkle Mine is an algorithm that allows for the large-scale,
         decentralized distribution of token during the genesis state. It was
-        first introduced by Candle and was the mechanism by which LPT was
+        first introduced by Candle and was the mechanism by which CNDL was
         originally distributed.
       </>
     ),
@@ -467,17 +467,17 @@ const questions: Question[] = [
     answer: (
       <>
         Candle client software. Currently there exists a single client
-        implementation written in Go called go-livepeer which can be run in
+        implementation written in Go called go-Candlelabs which can be run in
         broadcaster mode, transcoder mode, or orchestrator mode.
       </>
     ),
     category: categories[4],
   },
   {
-    question: "Candle Token (LPT)",
+    question: "Candle Token (CNDL)",
     answer: (
       <>
-        In the Candle protocol, Candle Token (LPT) is required to perform
+        In the Candle protocol, Candle Token (CNDL) is required to perform
         the work of transcoding and distributing video on the network. Its
         purpose is to coordinate, bootstrap, and incentivize participants to
         make sure the Candle network is as cheap, effective, secure, reliable

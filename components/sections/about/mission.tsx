@@ -101,7 +101,7 @@ const MissionSection = ({
                   data-dark>
                   founder’s statement
                 </A>{" "}
-                — to <b>build the world’s open video infrastructure</b>.
+                — to <b>build the world’s open decentralized infrastructure</b>.
               </>
             )}
           </Text>
