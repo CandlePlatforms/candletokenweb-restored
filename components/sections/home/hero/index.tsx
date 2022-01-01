@@ -210,11 +210,7 @@ const HomeHero = ({ title, subtitle, cta, videoLabel }) => {
               overflow: "hidden",
               opacity: 0,
             }}>
-            <VideoSwapper
-              videoLabel={videoLabel}
-              sources={videos}
-              onChange={onVideoChange}
-            />
+           
           </div>
         </Box>
       </Container>
