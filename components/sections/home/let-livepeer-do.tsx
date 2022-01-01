@@ -32,7 +32,7 @@ const LetLivepeerDoSection = ({
       icon: <GpuSvg style={{ width: 28, height: 28 }} />,
       title: videoMiners.title,
       description: videoMiners.description,
-      linkProps: { link: { label: "/video-miners", href: "/video-miners" } },
+      linkProps: { link: { label: "/products", href: "/products" } },
       isClickable: true,
     },
   ];

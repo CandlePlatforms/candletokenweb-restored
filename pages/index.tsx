@@ -58,8 +58,8 @@ const HomePage = ({ youtubeVideos, totalActiveStake }) => {
           description: t("page-home-developers-text"),
         }}
         videoMiners={{
-          title: t("page-home-video-miners"),
-          description: t("page-home-video-miners-text"),
+          title: t("page-home-products"),
+          description: t("page-home-products-text"),
         }}
       />
       <PrimerBanner
