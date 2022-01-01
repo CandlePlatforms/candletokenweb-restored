@@ -176,7 +176,7 @@ const HomeHero = ({ title, subtitle, cta, videoLabel }) => {
             />
             <GlobeDot
               pulsating={false}
-              image="/images/hero/avatar-livepeer.png"
+              image="/images/hero/avatar-candle.png"
               left={["5%", "28%"]}
               top={["65%", "68%"]}
             />
@@ -201,7 +201,7 @@ const HomeHero = ({ title, subtitle, cta, videoLabel }) => {
             />
             <GlobeDot
               pulsating={false}
-              image="/images/hero/avatar-livepeer.png"
+              image="/images/hero/avatar-candle.png"
               left={["75%", "65%"]}
               top={["0", "22%"]}
             />
