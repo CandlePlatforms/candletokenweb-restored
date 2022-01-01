@@ -67,7 +67,7 @@ const LivepeerLogo = ({
 
     gsap.to(words, {
       duration: DURATION,
-      fill: hover ? (disableHover ? "#131418" : "#00EB88") : hexDark,
+      fill: hover ? (disableHover ? "#131418" : "#6fbeff") : hexDark,
       stagger: {
         each: 0.03,
         from: "end",

@@ -219,8 +219,8 @@ const BlockchainSvg = () => (
         width="54.8932"
         height="54.8932"
         rx="7"
-        fill="#00EB88"
-        stroke="#00EB88"
+        fill="#6fbeff"
+        stroke="#6fbeff"
         strokeWidth="2"
       />
       <rect
