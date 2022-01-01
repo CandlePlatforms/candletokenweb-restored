@@ -80,8 +80,8 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
       href: "/tokenholders",
     },
     {
-      label: t("nav-video-miners"),
-      href: "/video-miners",
+      label: t("nav-products"),
+      href: "/products",
     },
     {
       label: t("nav-resources"),

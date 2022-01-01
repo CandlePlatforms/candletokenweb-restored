@@ -32,7 +32,7 @@ const Footer = ({
       title: t("nav-participants"),
       items: [
         { label: t("nav-tokenholders"), href: "/tokenholders" },
-        { label: t("nav-video-miners"), href: "/video-miners" },
+        { label: t("nav-products"), href: "/products" },
         {
           label: t("nav-protocol-explorer"),
           href: "https://explorer.livepeer.org/",

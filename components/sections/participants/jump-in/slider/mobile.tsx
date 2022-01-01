@@ -65,8 +65,8 @@ const MobileJumpInSlider = () => {
         "Transcode video on your infrastructure as a video miner in exchange for ETH and LPT rewards.",
       linkProps: {
         link: {
-          label: "/video-miners",
-          href: "/video-miners",
+          label: "/products",
+          href: "/products",
         },
         isDark: true,
       },
