@@ -26,7 +26,7 @@ const TokenholdersPage = ({
       url: "https://livepeer.org/tokenholders",
       siteName: "Candle.org",
       image: "https://livepeer.org/OG.png",
-      twitterUsername: "@LivepeerOrg",
+      twitterUsername: "@Candle_Labs",
     },
   };
 

@@ -20,7 +20,7 @@ const AboutPage = () => {
       url: "https://livepeer.org/about",
       siteName: "Candle.org",
       image: "https://livepeer.org/OG.png",
-      twitterUsername: "@LivepeerOrg",
+      twitterUsername: "@Candle_Labs",
     },
   };
 
