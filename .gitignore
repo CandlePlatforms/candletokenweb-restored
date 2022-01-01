@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+.next
+.now
+.vercel
+yarn-error.log
+.env.local
+.env
+robots.txt
+sitemap.xml
+
