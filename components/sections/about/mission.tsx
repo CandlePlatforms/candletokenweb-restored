@@ -81,7 +81,7 @@ const MissionSection = ({
               text3
             ) : (
               <>
-                By providing the best possible portal to Livepeer, we hope to
+                By providing the best possible portal to Candle, we hope to
                 help capture this opportunity and fulfill the project’s mission
                 as laid out in the original{" "}
                 <A
@@ -101,7 +101,7 @@ const MissionSection = ({
                   data-dark>
                   founder’s statement
                 </A>{" "}
-                — to <b>build the world’s open video infrastructure</b>.
+                — to <b>build the world’s open decentralized infrastructure</b>.
               </>
             )}
           </Text>

@@ -48,7 +48,7 @@ const JumpInSlider = () => {
     {
       title: "Tokenholders",
       description:
-        "Help improve and secure the Livepeer network by acquiring and staking LPT. Earn ETH and LPT rewards in exchange.",
+        "Help improve and secure the Candle network by acquiring and staking LPT. Earn ETH and LPT rewards in exchange.",
       linkProps: {
         link: {
           label: "/tokenholders",

@@ -47,7 +47,7 @@ const PrefooterJobsBanner = ({
             color: "lightGray",
             maxWidth: "30ch",
           }}>
-          Help us build the world's open video infrastructure.
+          Help us build the world's open decentralized economy.
         </Text>
         <Link href={cta.href} as={cta.asPath} passHref>
           <A variant="buttons.primary">{cta.label}</A>

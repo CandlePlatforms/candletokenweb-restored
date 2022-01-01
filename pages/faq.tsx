@@ -10,9 +10,9 @@ const headProps: HeadProps = {
   meta: {
     title: "FAQ",
     description:
-      "Livepeer.org is a primary online resource for participants and users of the Livepeer network.",
+      "Candle.org is a primary online resource for participants and users of the Candle network.",
     url: "https://livepeer.org/participants",
-    siteName: "Livepeer.org",
+    siteName: "Candle.org",
     image: "https://livepeer.org/OG.png",
     twitterUsername: "@LivepeerOrg",
   },
@@ -23,7 +23,7 @@ const ParticipantsPage = () => (
     <IconHero
       icon={<FiHelpCircle />}
       title="FAQ"
-      subtitle="Below is a list of topics with the most frequently asked questions about the Livepeer network."
+      subtitle="Below is a list of topics with the most frequently asked questions about the Candle network."
       illustration={<FaqHeroSvg />}
       background="dark"
       withAnimation

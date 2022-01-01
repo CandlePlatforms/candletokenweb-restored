@@ -15,7 +15,7 @@ const Developers = () => {
       title: t("page-developers-meta-title"),
       description: t("page-developers-meta-description"),
       url: "https://livepeer.org/developers",
-      siteName: "Livepeer.org",
+      siteName: "Candle.org",
       image: "https://livepeer.org/OG.png",
       twitterUsername: "@LivepeerOrg",
     },
@@ -29,7 +29,7 @@ const Developers = () => {
       />
       <HugeCardSection
         card={{
-          label: <Box>Build with the Livepeer.com</Box>,
+          label: <Box>Build with the Candle.com</Box>,
           title: (
             <Box>
               Gateway<Box>API.</Box>
@@ -39,12 +39,12 @@ const Developers = () => {
             {
               title: "Easy-to-use API",
               subtitle:
-                "Straight forward APIs make integrating with Livepeer quick and easy. Build your own streaming platform in days not months.",
+                "Straight forward APIs make integrating with Candle quick and easy. Build your own streaming platform in days not months.",
             },
             {
               title: "Affordable",
               subtitle:
-                "Affordable transcoding backed by the Livepeer network allows you to operate a UGC streaming platform with millions of content creators.",
+                "Affordable transcoding backed by the Candle network allows you to operate a UGC streaming platform with millions of content creators.",
             },
             {
               title: "Scalable",

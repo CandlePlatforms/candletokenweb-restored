@@ -1,11 +1,11 @@
 {
   "page-developers-title": "Developers",
-  "page-developers-intro": "Everything you need to build powerful video applications with Livepeer.",
+  "page-developers-intro": "Everything you need to build powerful video applications with Candle.",
   "page-developers-build-with": "Build with",
   "page-developers-public-network": "The Public Network",
   "page-developers-public-network-cta": "Read the docs",
   "page-developers-decentralized": "Decentralized",
-  "page-developers-decentralized-text": "No single company or individual controls the Livepeer network. Build video apps that connect directly with your audience.",
+  "page-developers-decentralized-text": "No single company or individual controls the Candle network. Build video apps that connect directly with your audience.",
   "page-developers-cost": "Low Cost",
   "page-developers-cost-text": "Crypto payments for transcoding at the lowest possible cost.",
   "page-developers-flexible": "Flexible",
@@ -18,8 +18,8 @@
   "page-developers-powered-text": "Affordable transcoding powered by the public network allows you to operate a UGC platform with millions of content creators.",
   "page-developers-smart": "Smart Video",
   "page-developers-smart-text": "Content moderation APIs necessary in running UGC platforms, such as automatically flagging adult content.",
-  "page-developers-open-source": "Livepeer is open source",
-  "page-developers-open-source-text": "There are many opportunities for designers, software engineers and enthusiasts to contribute to the Livepeer ecosystem.",
+  "page-developers-open-source": "Candle is open source",
+  "page-developers-open-source-text": "There are many opportunities for designers, software engineers and enthusiasts to contribute to the Candle ecosystem.",
   "page-developers-open-source-cta": "Explore the code",
   "page-developers-stats-contributors": "100+",
   "page-developers-stats-contributors-text": "Github Contributors",
@@ -28,5 +28,5 @@
   "page-developers-stats-languages": "12",
   "page-developers-stats-languages-text": "Languages",
   "page-developers-meta-title": "Developers",
-  "page-developers-meta-description": "Everything you need to build powerful video applications with Livepeer."
+  "page-developers-meta-description": "Everything you need to build powerful video applications with Candle."
 }

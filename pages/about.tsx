@@ -18,7 +18,7 @@ const AboutPage = () => {
       title: t("page-about-meta-title"),
       description: t("page-about-meta-description"),
       url: "https://livepeer.org/about",
-      siteName: "Livepeer.org",
+      siteName: "Candle.org",
       image: "https://livepeer.org/OG.png",
       twitterUsername: "@LivepeerOrg",
     },

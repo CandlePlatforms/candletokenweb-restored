@@ -24,7 +24,7 @@ const TokenholdersPage = ({
       title: t("page-tokenholders-meta-title"),
       description: t("page-tokenholders-meta-description"),
       url: "https://livepeer.org/tokenholders",
-      siteName: "Livepeer.org",
+      siteName: "Candle.org",
       image: "https://livepeer.org/OG.png",
       twitterUsername: "@LivepeerOrg",
     },

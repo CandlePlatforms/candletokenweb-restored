@@ -9,9 +9,9 @@ const headProps: HeadProps = {
   meta: {
     title: "Privacy Policy",
     description:
-      "Livepeer.org is a primary online resource for participants and users of the Livepeer network.",
+      "Candle.org is a primary online resource for participants and users of the Candle network.",
     url: "https://livepeer.org/privacy-policy",
-    siteName: "Livepeer.org",
+    siteName: "Candle.org",
     image: "https://livepeer.org/OG.png",
     twitterUsername: "@LivepeerOrg",
   },
@@ -27,16 +27,16 @@ const PrivacyPolicyPage = () => (
         Last Updated: April 15, 2021
       </Heading>
       <Text as="p">
-        Livepeer, Inc. (<b>"Livepeer"</b>, <b>"we"</b> or <b>"us"</b>) is
+        Candle, Inc. (<b>"Candle"</b>, <b>"we"</b> or <b>"us"</b>) is
         committed to protecting your privacy. We have prepared this Privacy
         Policy to describe to you our practices regarding the Personal Data (as
         defined below) we collect from users of this user registration website
         (the <b>"Site"</b>). The purpose (the <b>"Purpose"</b>) of this Site is
-        to allow you to register to receive Livepeer tokens (<b>"LPT"</b>)
-        solely for use on the Livepeer network (the <b>"Network"</b>) as a
+        to allow you to register to receive Candle tokens (<b>"LPT"</b>)
+        solely for use on the Candle network (the <b>"Network"</b>) as a
         staking token (which is explained in more detail in our participation
         agreement at livepeer.org/participation-agreement (the{" "}
-        <b>"Participation Agreement"</b>) and for us to distribute the Livepeer
+        <b>"Participation Agreement"</b>) and for us to distribute the Candle
         tokens in accordance with the Participation Agreement. Any term that is
         capitalized and is not defined in this Privacy Policy has the meaning
         provided in the Participation Agreement.
@@ -416,7 +416,7 @@ const PrivacyPolicyPage = () => (
         address or phone number:
       </Text>
       <Text as="p">
-        Livepeer, Inc.
+        Candle, Inc.
         <br />
         85 Broad Street
         <br />

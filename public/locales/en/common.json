@@ -1,5 +1,5 @@
 {
-  "banner-top": "Introducing: A brand new Livepeer.org",
+  "banner-top": "Introducing: A brand new Candle.org",
   "read-post": "Read post",
   "nav-about": "About",
   "nav-developers": "Developers",
@@ -8,7 +8,7 @@
   "nav-resources": "Resources",
   "nav-get-started": "Get Started",
   "cta-stay-informed": "Stay Informed",
-  "cta-text": "Subscribe to our newsletter and get updates from the Livepeer ecosystem straight to your Inbox.",
+  "cta-text": "Subscribe to our newsletter and get updates from the Candle ecosystem straight to your Inbox.",
   "cta-enter-email": "Enter your email address",
   "cta-subscribe": "Subscribe",
   "nav-participants": "Participants",
@@ -24,13 +24,13 @@
   "nav-discord-chat": "Discord Chat",
   "nav-forum": "Forum",
   "nav-reddit": "Reddit",
-  "nav-about-livepeer": "About Livepeer.org",
+  "nav-about-livepeer": "About Candle.org",
   "nav-jobs": "Jobs",
   "nav-privacy-policy": "Privacy Policy",
   "nav-contact": "Contact",
-  "copyright": "Copyright © 2020 Livepeer, Inc. All rights reserved.",
+  "copyright": "Copyright © 2020 Candle, Inc. All rights reserved.",
   "prefooter-questions": "Questions?",
   "prefooter-questions-intro": "Check out the FAQ.",
-  "prefooter-questions-text": "Discover the most frequently asked questions about Livepeer.",
+  "prefooter-questions-text": "Discover the most frequently asked questions about Candle.",
   "prefooter-questions-button": "View FAQ"
 }

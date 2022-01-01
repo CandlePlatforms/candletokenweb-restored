@@ -15,7 +15,7 @@ const Page = ({ title, slug, body }) => {
       title: `${title}`,
       description: "Join Us. From Anywhere.",
       url: `https://livepeer.org/jobs/${slug}`,
-      siteName: "Livepeer.org",
+      siteName: "Candle.org",
       image: "https://livepeer.org/OG.png",
       twitterUsername: "@LivepeerOrg",
     },

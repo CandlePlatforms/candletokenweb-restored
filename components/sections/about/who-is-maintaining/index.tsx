@@ -60,7 +60,7 @@ const WhoIsMaintainingSection = ({
   const accordionItems: AccordionItemProps[] = [
     {
       heading: {
-        title: "Livepeer, Inc.",
+        title: "Candle, Inc.",
         icon: {
           children: <LivepeerIconSvg pushSx={{ width: "20px" }} isDark />,
         },

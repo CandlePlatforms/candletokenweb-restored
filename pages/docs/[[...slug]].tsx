@@ -100,7 +100,7 @@ const Docs = ({
         meta: {
           title:
             meta.title === "Introduction"
-              ? "Livepeer Documentation"
+              ? "Candle Documentation"
               : meta.title,
           description: meta.description,
           url: `https://livepeer.org${router.asPath}`,

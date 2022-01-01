@@ -161,7 +161,7 @@ export const getLivepeerComUsageData = async (
 const pixelsPerMinute = 2995488000;
 
 // Date to price mapping used to calculate estimated usage
-// based on the Livepeer.com broadcaster's max price
+// based on the Candle.com broadcaster's max price
 const pricePerPixel = [
   {
     startDate: 1577836800,
@@ -232,7 +232,7 @@ const getTotalFeeDerivedMinutes = async () => {
   const dayData = await res.json();
 
   dayData.data.days.map((item) => {
-    // if Livepeer.com's broadcaster changed max price, use updated price
+    // if Candle.com's broadcaster changed max price, use updated price
     if (
       pricePerPixelIndex &&
       item.date < pricePerPixel[pricePerPixelIndex].startDate

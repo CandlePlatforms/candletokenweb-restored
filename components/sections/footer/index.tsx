@@ -176,7 +176,7 @@ const Footer = ({
             <Text
               variant="small"
               sx={{ textAlign: ["center", null, null, "left"] }}>
-              Copyright © {new Date().getFullYear()} Livepeer, Inc.
+              Copyright © {new Date().getFullYear()} Candle, Inc.
             </Text>
           </Flex>
         </Container>

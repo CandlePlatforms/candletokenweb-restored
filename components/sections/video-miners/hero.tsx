@@ -17,7 +17,7 @@ const lines: AnimatedLineProps[] = [
   {
     frames: [
       {
-        text: "***Livepeer is running on the mainnet network***",
+        text: "***Candle is running on the mainnet network***",
       },
     ],
     delay: 200,
@@ -39,7 +39,7 @@ const lines: AnimatedLineProps[] = [
   {
     frames: [
       {
-        text: "***Livepeer is in Orchestrator Mode***",
+        text: "***Candle is in Orchestrator Mode***",
       },
     ],
     delay: 200,

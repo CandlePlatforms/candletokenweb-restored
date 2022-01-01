@@ -1,5 +1,5 @@
 {
-  "banner-top": "Встречайте: обновленный Livepeer.org",
+  "banner-top": "Встречайте: обновленный Candle.org",
   "read-post": "Читать публикацию",
   "nav-about": "О портале",
   "nav-developers": "Разработчикам",
@@ -8,7 +8,7 @@
   "nav-resources": "Ресурсы",
   "nav-get-started": "Начать работу",
   "cta-stay-informed": "Будьте в курсе новостей",
-  "cta-text": "Подпишитесь на нашу информационную рассылку и получайте новости от экосистемы Livepeer прямо на почту.",
+  "cta-text": "Подпишитесь на нашу информационную рассылку и получайте новости от экосистемы Candle прямо на почту.",
   "cta-enter-email": "Введите свой адрес электронной почты",
   "cta-subscribe": "Подписаться",
   "nav-participants": "Участникам",
@@ -24,13 +24,13 @@
   "nav-discord-chat": "Чат в Discord",
   "nav-forum": "Форум",
   "nav-reddit": "Reddit",
-  "nav-about-livepeer": "О портале Livepeer.org",
+  "nav-about-livepeer": "О портале Candle.org",
   "nav-jobs": "Jobs",
   "nav-privacy-policy": "Политика конфиденциальности",
   "nav-contact": "Контактные данные",
-  "copyright": "© Livepeer, Inc., 2020. Все права защищены.",
+  "copyright": "© Candle, Inc., 2020. Все права защищены.",
   "prefooter-questions": "Есть вопросы?",
   "prefooter-questions-intro": "Просмотрите раздел «Вопросы и ответы».",
-  "prefooter-questions-text": "Узнайте ответы на самые распространенные вопросы о Livepeer.",
+  "prefooter-questions-text": "Узнайте ответы на самые распространенные вопросы о Candle.",
   "prefooter-questions-button": "Просмотреть вопросы и ответы"
 }
