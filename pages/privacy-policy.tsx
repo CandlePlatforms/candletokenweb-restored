@@ -10,10 +10,10 @@ const headProps: HeadProps = {
     title: "Privacy Policy",
     description:
       "Candle.org is a primary online resource for participants and users of the Candle network.",
-    url: "https://livepeer.org/privacy-policy",
+    url: "https://CandleLabs.org/privacy-policy",
     siteName: "Candle.org",
-    image: "https://livepeer.org/OG.png",
-    twitterUsername: "@LivepeerOrg",
+    image: "https://Livepeer.org/OG.png",
+    twitterUsername: "@CandleLabs",
   },
 };
 
