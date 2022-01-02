@@ -10,9 +10,9 @@ const headProps: HeadProps = {
     title: "Terms of Service",
     description:
       "Candle.org is a primary online resource for participants and users of the Candle network.",
-    url: "https://livepeer.org/privacy-policy",
+    url: "https://candelabs.org/privacy-policy",
     siteName: "Candle.org",
-    image: "https://livepeer.org/OG.png",
+    image: "https://candelabs.org/OG.png",
     twitterUsername: "@Candle_Labs",
   },
 };
@@ -108,10 +108,10 @@ const PrivacyPolicyPage = () => (
           <Text as="p">
             <strong>Website</strong> refers to Candle.org, accessible from{" "}
             <a
-              href="https://livepeer.org"
+              href="https://candelabs.org"
               rel="external nofollow noopener"
               target="_blank">
-              https://livepeer.org
+              https://candelabs.org
             </a>
           </Text>
         </li>
@@ -377,7 +377,7 @@ const PrivacyPolicyPage = () => (
         contact us:
       </Text>
       <ul>
-        <li>By email: contact@livepeer.org</li>
+        <li>By email: contact@candelabs.org</li>
       </ul>
     </Container>
   </PageLayout>

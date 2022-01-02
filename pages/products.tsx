@@ -21,9 +21,9 @@ const VideoMinerPage = ({ totalVolumeUSD, totalActiveNodes, totalMinutes }) => {
     meta: {
       title: t("page-products-meta-title"),
       description: t("page-products-meta-description"),
-      url: "https://livepeer.org/products",
+      url: "https://candelabs.org/products",
       siteName: "Candle.org",
-      image: "https://livepeer.org/OG.png",
+      image: "https://candelabs.org/OG.png",
       twitterUsername: "@Candle_Labs",
     },
   };

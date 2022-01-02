@@ -35,7 +35,7 @@ const Footer = ({
         { label: t("nav-products"), href: "/products" },
         {
           label: t("nav-protocol-explorer"),
-          href: "https://explorer.livepeer.org/",
+          href: "https://explorer.candelabs.org/",
           isExternal: true,
         },
         {
@@ -120,7 +120,7 @@ const Footer = ({
         },
         {
           label: t("nav-contact"),
-          href: "mailto:contact@livepeer.org",
+          href: "mailto:contact@candelabs.org",
         },
       ],
     },

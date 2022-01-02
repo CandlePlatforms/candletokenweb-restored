@@ -14,9 +14,9 @@ const ResourcesPage = () => {
     meta: {
       title: t("page-resources-meta-title"),
       description: t("page-resources-meta-description"),
-      url: "https://livepeer.org/resources",
+      url: "https://candelabs.org/resources",
       siteName: "Candle.org",
-      image: "https://livepeer.org/OG.png",
+      image: "https://candelabs.org/OG.png",
       twitterUsername: "@Candle_Labs",
     },
   };

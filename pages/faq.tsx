@@ -11,9 +11,9 @@ const headProps: HeadProps = {
     title: "FAQ",
     description:
       "Candle.org is a primary online resource for participants and users of the Candle network.",
-    url: "https://livepeer.org/participants",
+    url: "https://candelabs.org/participants",
     siteName: "Candle.org",
-    image: "https://livepeer.org/OG.png",
+    image: "https://candelabs.org/OG.png",
     twitterUsername: "@Candle_Labs",
   },
 };

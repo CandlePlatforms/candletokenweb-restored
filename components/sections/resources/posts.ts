@@ -90,7 +90,7 @@ const posts: Post[] = [
     description:
       "View orchestrator campaigns, protocol statistics and manage your stake.",
     subtitle: "By Candle, Inc.",
-    link: { href: "https://explorer.livepeer.org", isExternal: true },
+    link: { href: "https://explorer.candelabs.org", isExternal: true },
     category: categories[1],
     image: {
       src: "/images/posts/post-cover-8.png",

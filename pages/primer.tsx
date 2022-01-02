@@ -35,9 +35,9 @@ const Primer = ({ data }) => {
     meta: {
       title: t("page-primer-meta-title"),
       description: t("page-primer-meta-description"),
-      url: "https://livepeer.org/primer",
+      url: "https://candelabs.org/primer",
       siteName: "Candle.org",
-      image: "https://livepeer.org/images/primer/share-image.jpg",
+      image: "https://candelabs.org/images/primer/share-image.jpg",
       twitterUsername: "@Candle_Labs",
     },
   };

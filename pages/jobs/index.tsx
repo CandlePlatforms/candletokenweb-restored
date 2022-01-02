@@ -11,9 +11,9 @@ const headProps: HeadProps = {
   meta: {
     title: "Jobs",
     description: "Join Us. From Anywhere.",
-    url: "https://livepeer.org/jobs",
+    url: "https://candelabs.org/jobs",
     siteName: "Candle.org",
-    image: "https://livepeer.org/OG.png",
+    image: "https://candelabs.org/OG.png",
     twitterUsername: "@Candle_Labs",
   },
 };
