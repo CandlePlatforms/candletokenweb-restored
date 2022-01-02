@@ -13,7 +13,7 @@ const HomeHero = ({ title, subtitle, cta, videoLabel }) => {
   const headerRef = useRef<HTMLDivElement>(null);
   const dotsRef = useRef<HTMLDivElement>(null);
 
- 
+
 
   useEffect(() => {
     if (!dotsRef.current || !videoBoxRef.current) return;
@@ -150,7 +150,7 @@ const HomeHero = ({ title, subtitle, cta, videoLabel }) => {
           <div ref={dotsRef}>
             <GlobeDot
               pulsating={globeDotIndex === 0}
-              image="/images/hero/avatar-1.png"
+              image="/images/hero/candle.png"
               left={["10%", "35%"]}
               top={["5%", "15%"]}
             />
@@ -168,32 +168,32 @@ const HomeHero = ({ title, subtitle, cta, videoLabel }) => {
             />
             <GlobeDot
               pulsating={globeDotIndex === 1}
-              image="/images/hero/avatar-2.png"
+              image="/images/hero/candle.png"
               left={["35%", "32%"]}
               top={["40%", "50%"]}
             />
 
             <GlobeDot
               pulsating={globeDotIndex === 2}
-              image="/images/hero/avatar-3.png"
+              image="/images/hero/candle.png"
               left={["70%", "67%"]}
               top={["35%", "62%"]}
             />
             <GlobeDot
               pulsating={globeDotIndex === 3}
-              image="/images/hero/avatar-4.png"
+              image="/images/hero/candle.png"
               left={["50%", "55%"]}
               top={["15%", "20%"]}
             />
             <GlobeDot
               pulsating={false}
-              image="/images/hero/avatar-candle.png"
+              image="/images/hero/candle.png"
               left={["75%", "65%"]}
               top={["0", "22%"]}
             />
             <GlobeDot
               pulsating={false}
-              image="/images/hero/avatar-eth.png"
+              image="/images/hero/candle.png"
               left={["85%", "75%"]}
               top={["75%", "70%"]}
             />
@@ -210,7 +210,7 @@ const HomeHero = ({ title, subtitle, cta, videoLabel }) => {
               overflow: "hidden",
               opacity: 0,
             }}>
-           
+
           </div>
         </Box>
       </Container>
