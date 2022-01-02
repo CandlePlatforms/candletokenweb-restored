@@ -18,7 +18,7 @@ const AboutPage = () => {
       title: t("page-about-meta-title"),
       description: t("page-about-meta-description"),
       url: "https://candelabs.org/about",
-      siteName: "Candle.org",
+      siteName: "CandleLabs.org",
       image: "https://candelabs.org/go.png",
       twitterUsername: "@Candle_Labs",
     },
