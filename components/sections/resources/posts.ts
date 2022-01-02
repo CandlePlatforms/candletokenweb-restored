@@ -37,7 +37,7 @@ const posts: Post[] = [
       "Protocol and Economic Incentives For a Decentralized Live Video Streaming Network",
     subtitle: "By Doug Petkanics & Eric Tang",
     link: {
-      href: "https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md",
+      href: "https://github.com/CandlePlatforms/wiki/blob/master/WHITEPAPER.md",
       isExternal: true,
     },
     category: categories[0],
@@ -52,7 +52,7 @@ const posts: Post[] = [
       "Candle Scalability on Ethereum through Orchestration, Probabilistic Micropayments, and Offchain Job Negotiation",
     subtitle: "By Doug Petkanics & Yondon Fu",
     link: {
-      href: "https://github.com/livepeer/wiki/blob/master/STREAMFLOW.md",
+      href: "https://github.com/CandlePlatforms/wiki/blob/master/STREAMFLOW.md",
       isExternal: true,
     },
     category: categories[0],
@@ -90,7 +90,7 @@ const posts: Post[] = [
     description:
       "View orchestrator campaigns, protocol statistics and manage your stake.",
     subtitle: "By Candle, Inc.",
-    link: { href: "https://explorer.livepeer.org", isExternal: true },
+    link: { href: "https://explorer.candle.org", isExternal: true },
     category: categories[1],
     image: {
       src: "/images/posts/post-cover-8.png",
@@ -114,7 +114,7 @@ const posts: Post[] = [
     description:
       "A data analytics tool that shows you the current economics of the protocol, such as the amount of token in supply, inflation rate, and more.",
     subtitle: "By Scout",
-    link: { href: "https://scout.cool/livepeer/mainnet", isExternal: true },
+    link: { href: "https://scout.cool/candle/mainnet", isExternal: true },
     category: categories[1],
     image: {
       src: "/images/posts/post-cover-10.png",
@@ -126,7 +126,7 @@ const posts: Post[] = [
     subtitle: "By Figment Networks",
     description: "Rewards reporting and alerts for stakers",
     link: {
-      href: "https://hubble.figment.network/livepeer/chains/mainnet",
+      href: "https://hubble.figment.network/candle/chains/mainnet",
       isExternal: true,
     },
     category: categories[1],
@@ -153,7 +153,7 @@ const posts: Post[] = [
     description:
       "An API for fetching off-chain orchestrator pricing information",
     link: {
-      href: "https://github.com/buidl-labs/livepeer-pricing-tool",
+      href: "https://github.com/buidl-labs/candle-pricing-tool",
       isExternal: true,
     },
     category: categories[1],
@@ -168,7 +168,7 @@ const posts: Post[] = [
     description:
       "Query indexed Candle protocol data over GraphQL using the Graph Protocol.",
     link: {
-      href: "https://thegraph.com/explorer/subgraph/livepeer/livepeer",
+      href: "https://thegraph.com/explorer/subgraph/candle/candle",
       isExternal: true,
     },
     category: categories[1],
@@ -183,7 +183,7 @@ const posts: Post[] = [
       "LPT price, marketcap, charts and info",
     subtitle: "",
     link: {
-      href: "https://coinmarketcap.com/currencies/livepeer/",
+      href: "https://coinmarketcap.com/currencies/candle/",
       isExternal: true,
     },
     category: categories[1],
@@ -225,7 +225,7 @@ const posts: Post[] = [
     subtitle: "Custodial exchange",
     link: {
       href:
-        "https://www.kraken.com/prices/lpt-livepeer-price-chart/usd-us-dollar?interval=1m",
+        "https://www.kraken.com/prices/lpt-candle-price-chart/usd-us-dollar?interval=1m",
       isExternal: true,
     },
     category: categories[2],
@@ -239,7 +239,7 @@ const posts: Post[] = [
     subtitle: "Custodial exchange",
     link: {
       href:
-        "https://www.gemini.com/prices/livepeer?utm_source=livepeer&utm_medium=link&utm_campaign=web_referral",
+        "https://www.gemini.com/prices/candle?utm_source=candle&utm_medium=link&utm_campaign=web_referral",
       isExternal: true,
     },
     category: categories[2],

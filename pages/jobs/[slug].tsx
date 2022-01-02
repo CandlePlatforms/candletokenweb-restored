@@ -14,9 +14,9 @@ const Page = ({ title, slug, body }) => {
     meta: {
       title: `${title}`,
       description: "Join Us. From Anywhere.",
-      url: `https://livepeer.org/jobs/${slug}`,
+      url: `https://candle.org/jobs/${slug}`,
       siteName: "Candle.org",
-      image: "https://livepeer.org/OG.png",
+      image: "https://candle.org/OG.png",
       twitterUsername: "@Candle_Labs",
     },
   };
@@ -81,7 +81,7 @@ const Page = ({ title, slug, body }) => {
             <A
               variant="buttons.primary"
               sx={{ display: "flex", width: "100%" }}
-              href="mailto:work@livepeer.org">
+              href="mailto:work@candle.org">
               Send email
             </A>
           </Box>

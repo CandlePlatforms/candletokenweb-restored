@@ -1,6 +1,6 @@
 import HomeHero from "components/sections/home/hero";
 import ByTheNumbersSection from "components/sections/home/by-the-numbers";
-import LetLivepeerDoSection from "components/sections/home/let-livepeer-do";
+import LetcandleDoSection from "components/sections/home/let-candle-do";
 import PrimerBanner from "components/sections/home/primer-banner";
 import CommunitySection from "components/sections/home/community";
 import PageLayout from "components/layouts/page";
@@ -29,7 +29,7 @@ const HomePage = ({ youtubeVideos, totalActiveStake }) => {
       description: t("page-home-meta-description"),
       url: "https://CandleLabs.org",
       siteName: "Candle.org",
-      image: "https://livepeer.org/OG.png",
+      image: "https://candle.org/OG.png",
       twitterUsername: "@CandleLabs",
     },
   };
@@ -45,7 +45,7 @@ const HomePage = ({ youtubeVideos, totalActiveStake }) => {
         cta={t("page-home-get-started")}
         videoLabel={t("page-home-live")}
       />
-      <LetLivepeerDoSection
+      <LetcandleDoSection
         label={t("page-home-get-started")}
         title={t("page-home-what-role")}
         subtitle={t("page-home-jump-in")}
@@ -57,7 +57,7 @@ const HomePage = ({ youtubeVideos, totalActiveStake }) => {
           title: t("page-home-developers"),
           description: t("page-home-developers-text"),
         }}
-        videoMiners={{
+        candle={{
           title: t("page-home-products"),
           description: t("page-home-products-text"),
         }}

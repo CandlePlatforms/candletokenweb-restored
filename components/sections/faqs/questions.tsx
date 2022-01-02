@@ -66,7 +66,7 @@ const questions: Question[] = [
         Candle Labs, Inc. is the legal entity and core team shepherding the protocol
         and moving it along its{" "}
         <AnswerLink
-          href="https://medium.com/Candlelabs-blog/livepeers-path-to-decentralization-a9267fd16532"
+          href="https://medium.com/Candlelabs-blog/candles-path-to-decentralization-a9267fd16532"
           label="path towards decentralization."
           isExternal
         />

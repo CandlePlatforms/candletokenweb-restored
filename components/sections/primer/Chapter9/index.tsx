@@ -67,7 +67,7 @@ const Chapter9 = ({ onChange, data }) => {
             </Link>
             <p>{t("page-primer-contents-involved-interested-text-two")}</p>
             <Button
-              href="https://explorer.livepeer.org/"
+              href="https://explorer.candle.org/"
               target="_blank"
               rel="noopener noreferrer">
               {t("page-primer-contents-involved-interested-cta-two")}

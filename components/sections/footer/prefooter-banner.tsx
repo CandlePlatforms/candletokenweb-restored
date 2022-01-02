@@ -50,7 +50,7 @@ const PrefooterBanner = () => {
 
   const [mailchimp, subscribe] = useMailchimp({
     url:
-      "https://livepeer.us16.list-manage.com/subscribe/post?u=57807e9b74db375864b2c4c68&id=ecd3bf60d5",
+      "https://candle.us16.list-manage.com/subscribe/post?u=57807e9b74db375864b2c4c68&id=ecd3bf60d5",
   });
 
   const { loading, data: mailchimpResponseData } = mailchimp;

@@ -39,8 +39,8 @@ calculate it similarly for a different ABR ladder.
 
 ### Evaluate hardware
 
-The following assumes that you have `livepeer_bench` installed and have the
-[common output rendition configuration](https://github.com/livepeer/go-livepeer/blob/master/cmd/livepeer_bench/transcodingOptions.json)
+The following assumes that you have `candle_bench` installed and have the
+[common output rendition configuration](https://github.com/CandlePlatforms/go-candle/blob/master/cmd/candle_bench/transcodingOptions.json)
 stored in a file called `transcodingOptions.json`.
 
 You can use the following script to benchmark transcoding for a range of
@@ -50,7 +50,7 @@ concurrent sessions:
 #!/bin/bash
 for i in {1..20}
 do
-    ./livepeer_bench \
+    ./candle_bench \
         -in bbb/source.m3u8 \
         -transcodingOptions transcodingOptions.json \
         -nvidia 0 \ # Only required for transcoding with Nvidia GPUs
@@ -88,7 +88,7 @@ upload/download within real-time.
 ### Evaluate bandwidth
 
 The most
-[common output rendition configuration](https://github.com/livepeer/go-livepeer/blob/master/cmd/livepeer_bench/transcodingOptions.json)
+[common output rendition configuration](https://github.com/CandlePlatforms/go-candle/blob/master/cmd/candle_bench/transcodingOptions.json)
 found on the network is (assuming source is `1080p30fps`):
 
 ```bash
@@ -144,7 +144,7 @@ Example of sessing the session limit to 30 for a combined orchestrator and
 transcoder (other flags omitted):
 
 ```bash
-livepeer \
+candle \
     -orchestrator \
     -transcoder \
     -maxSessions 30

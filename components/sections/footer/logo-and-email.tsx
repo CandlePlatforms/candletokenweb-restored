@@ -1,5 +1,5 @@
 import { Link as A, SxStyleProp, Box } from "theme-ui";
-import LivepeerLogo from "components/svgs/livepeer-logo";
+import candleLogo from "components/svgs/candle-logo";
 
 type Props = {
   pushSx?: SxStyleProp;
@@ -16,15 +16,15 @@ const LogoAndEmail = ({ pushSx, pushLogoSx, pushEmailSx, id }: Props) => (
       alignItems: "center",
       ...pushSx,
     }}>
-    <LivepeerLogo isDark pushSx={{ mr: 4, ...pushLogoSx }} id={id} />
+    <candleLogo isDark pushSx={{ mr: 4, ...pushLogoSx }} id={id} />
     <A
-      href="mailto:contact@livepeer.org"
+      href="mailto:contact@candlelabs.org"
       sx={{
         color: "primary",
         "&:hover": { color: "gradient.to" },
         ...pushEmailSx,
       }}>
-      contact@livepeer.org
+      contact@candle.org
     </A>
   </Box>
 );

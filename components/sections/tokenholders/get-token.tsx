@@ -30,7 +30,7 @@ const GetTokenSection = ({ title, card1, card2 }) => {
         label: card2.ctaText,
         isLink: true,
         isExternal: true,
-        href: "https://explorer.livepeer.org",
+        href: "https://explorer.candle.org",
       },
       accent: "secondary",
       headerIllustration: <GetTokenSvg />,

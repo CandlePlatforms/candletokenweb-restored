@@ -8,7 +8,7 @@ The broadcaster can verify transcoded results received from orchestrators by
 sending verification requests to a verifier that runs alongside the broadcaster.
 The current default verifier implementation uses a machine learning classifier -
 refer to the
-[verifier documentation](https://github.com/livepeer/verification-classifier)
+[verifier documentation](https://github.com/CandlePlatforms/verification-classifier)
 for more details.
 
 Verification is currently experimental and needs to be explicitly enabled by the
@@ -24,7 +24,7 @@ transcoding latency after enabling verification for a broadcaster.
 2. Launch the verifier:
 
 ```bash
-git clone https://github.com/livepeer/verification-classifier
+git clone https://github.com/CandlePlatforms/verification-classifier
 cd verification-classifier
 ./launch_api.sh
 ```
@@ -57,7 +57,7 @@ If you are running the verifier on the same machine as the broadcaster, then you
 can run the below command in order to connect the broadcaster with the verifier:
 
 ```bash
-livepeer \
+candle \
   -network rinkeby \
   -ethUrl <ETH_URL> \
   -broadcaster \
@@ -116,7 +116,7 @@ After the SSH tunnel is setup and the remote volume is mounted, run the
 following command to start the broadcaster:
 
 ```bash
-livepeer \
+candle \
   -network rinkeby \
   -ethUrl <ETH_URL> \
   -broadcaster \

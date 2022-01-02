@@ -23,7 +23,7 @@ const Chapter1 = ({ onChange }) => {
           <p>{t("page-primer-contents-what-text-one")}</p>
           <p>{t("page-primer-contents-what-text-two")}</p>
         </Text>
-        <Ethereum src="/images/primer/livepeer-ethereum.svg" />
+        <Ethereum src="/images/primer/candle-ethereum.svg" />
       </Section1>
     </Container>
   );

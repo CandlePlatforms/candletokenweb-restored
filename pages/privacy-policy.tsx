@@ -12,7 +12,7 @@ const headProps: HeadProps = {
       "Candle.org is a primary online resource for participants and users of the Candle network.",
     url: "https://CandleLabs.org/privacy-policy",
     siteName: "Candle.org",
-    image: "https://Livepeer.org/OG.png",
+    image: "https://candle.org/OG.png",
     twitterUsername: "@CandleLabs",
   },
 };
@@ -35,7 +35,7 @@ const PrivacyPolicyPage = () => (
         to allow you to register to receive Candle tokens (<b>"LPT"</b>)
         solely for use on the Candle network (the <b>"Network"</b>) as a
         staking token (which is explained in more detail in our participation
-        agreement at livepeer.org/participation-agreement (the{" "}
+        agreement at candle.org/participation-agreement (the{" "}
         <b>"Participation Agreement"</b>) and for us to distribute the Candle
         tokens in accordance with the Participation Agreement. Any term that is
         capitalized and is not defined in this Privacy Policy has the meaning

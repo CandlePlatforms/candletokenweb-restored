@@ -1,7 +1,7 @@
 export function isInRoute(
   routerPathname: string,
   candidatePathname: string,
-  originURL = "https://livepeer.org/"
+  originURL = "https://candle.org/"
 ) {
   let candidateUrl: URL | undefined = undefined;
 

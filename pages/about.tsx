@@ -1,6 +1,6 @@
 import PageLayout from "components/layouts/page";
 import IconHero from "components/layouts/icon-hero";
-import LivepeerIconSvg from "components/svgs/icons/livepeer";
+import candleIconSvg from "components/svgs/icons/candle";
 import MissionSection from "components/sections/about/mission";
 import WhoIsBuildingSection from "components/sections/about/who-is-building";
 import WhoIsMaintainingSection from "components/sections/about/who-is-maintaining";
@@ -17,9 +17,9 @@ const AboutPage = () => {
     meta: {
       title: t("page-about-meta-title"),
       description: t("page-about-meta-description"),
-      url: "https://livepeer.org/about",
+      url: "https://candle.org/about",
       siteName: "Candle.org",
-      image: "https://livepeer.org/OG.png",
+      image: "https://candle.org/OG.png",
       twitterUsername: "@Candle_Labs",
     },
   };
@@ -27,10 +27,10 @@ const AboutPage = () => {
   return (
     <PageLayout headProps={headProps}>
       <IconHero
-        icon={<LivepeerIconSvg pushSx={{ width: "24px" }} isDark />}
+        icon={<candleIconSvg pushSx={{ width: "24px" }} isDark />}
         title={t("page-about-title")}
         subtitle={t("page-about-intro")}
-        illustration={<LivepeerIconSvg />}
+        illustration={<candleIconSvg />}
         withAnimation
       />
       <MissionSection

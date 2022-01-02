@@ -48,7 +48,7 @@ const JumpInSlider = () => {
     {
       title: "Tokenholders",
       description:
-        "Help improve and secure the Candle network by acquiring and staking LPT. Earn ETH and LPT rewards in exchange.",
+        "Help improve and grow Candle by staking CNDL and adding liquidity in pools for bonus CNDL.",
       linkProps: {
         link: {
           label: "/tokenholders",
@@ -59,9 +59,9 @@ const JumpInSlider = () => {
       isActive: true,
     },
     {
-      title: "Video Miners",
+      title: "Products",
       description:
-        "Run a livepeer node to transcode video on your GPUs in exchange for ETH and LPT rewards.",
+        "View our current expansive list of dapps within the CNDL ecosystem",
       linkProps: {
         link: {
           label: "/products",

@@ -14,10 +14,10 @@ title: Testing
 
 1. Install [grpcurl](https://github.com/fullstorydev/grpcurl#installation)
 
-2. Clone the go-livepeer repository:
+2. Clone the go-candle repository:
 
    ```bash
-   git clone https://github.com/livepeer/go-livepeer
+   git clone https://github.com/CandlePlatforms/go-candle
    ```
 
 3. Query the gRPC server that should be running at your orchestrator's service
@@ -25,7 +25,7 @@ title: Testing
 
    ```bash
    # <SERVICE_ADDR> should be your orchestrator's service address
-   grpcurl -insecure -import-path go-livepeer/net -proto lp_rpc.proto <SERVICE_ADDR> net.Orchestrator/Ping
+   grpcurl -insecure -import-path go-candle/net -proto lp_rpc.proto <SERVICE_ADDR> net.Orchestrator/Ping
    ```
 
    If the request is successful, you should see a response that looks like (the
@@ -40,7 +40,7 @@ title: Testing
 ## Check leaderboard results
 
 The explorer contains an
-[orchestrator leaderboard](https://explorer.livepeer.org/orchestrators?orchestratorTable=performance)
+[orchestrator leaderboard](https://explorer.candle.org/orchestrators?orchestratorTable=performance)
 that displays performance metrics of individual orchestrators on the network
 based on the results of transcoding tests.
 

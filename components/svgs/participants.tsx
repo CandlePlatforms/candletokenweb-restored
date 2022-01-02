@@ -58,7 +58,7 @@ const FloatingImage = ({ src, alt, pushSx }: ImageProps) => {
 
 const images: ImageProps[] = [
   {
-    src: "/images/avatars/avatar-female-1.png",
+    src: "/images/avatars/candle.png",
     alt: "floating avatar",
     pushSx: {
       left: 39,
@@ -67,7 +67,7 @@ const images: ImageProps[] = [
     },
   },
   {
-    src: "/images/avatars/avatar-female-2.png",
+    src: "/images/avatars/candle.png",
     alt: "floating avatar",
     pushSx: {
       right: 12,
@@ -76,7 +76,7 @@ const images: ImageProps[] = [
     },
   },
   {
-    src: "/images/avatars/avatar-male-1.png",
+    src: "/images/avatars/candle.png",
     alt: "floating avatar",
     pushSx: {
       right: 87,
@@ -86,7 +86,7 @@ const images: ImageProps[] = [
     },
   },
   {
-    src: "/images/avatars/avatar-male-2.png",
+    src: "/images/avatars/candle.png",
     alt: "floating avatar",
     pushSx: {
       top: 112,
@@ -95,7 +95,7 @@ const images: ImageProps[] = [
     },
   },
   {
-    src: "/images/avatars/avatar-male-3.png",
+    src: "/images/avatars/candle.png",
     alt: "floating avatar",
     pushSx: {
       left: 122,
@@ -104,7 +104,7 @@ const images: ImageProps[] = [
     },
   },
   {
-    src: "/images/avatars/avatar-male-4.png",
+    src: "/images/avatars/candle.png",
     alt: "floating avatar",
     pushSx: {
       right: 57,

@@ -38,11 +38,11 @@ const WhoIsBuildingSection = ({
         subtitle
       ) : (
         <>
-          In 2017, the founders of the Candle project formed a company called
-          Candle, Inc. to help facilitate its early development, bootstrap the
+          In 2021, the founders of the Candle project formed a company called
+          Candle Labs, Inc. to help facilitate its early development, bootstrap the
           network’s supply and demand sides, and guide the project’s{" "}
           <A
-            href="https://medium.com/@candlelabs/livepeers-path-to-decentralization-a9267fd16532"
+            href="https://medium.com/@candlelabs/"
             target="_blank"
             rel="noopener noreferrer"
             variant="accent">
@@ -59,7 +59,7 @@ const WhoIsBuildingSection = ({
       py: ["80px", "160px"],
     }}>
     <A
-      href="https://livepeer.com/team"
+      href="https://CandleLabs.org/team"
       target="_blank"
       rel="noopener noreferrer"
       variant="buttons.primary"
@@ -85,7 +85,7 @@ const WhoIsBuildingSection = ({
       ))}
     </Slider>
     <Heading variant="heading.5">
-      Interested in Joining Candle, Inc.?{" "}
+      Interested in Joining Candle Labs, Inc.?{" "}
       <Link href="/jobs" passHref>
         <A
           variant="accent"

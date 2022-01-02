@@ -10,7 +10,7 @@ import {
   Button,
   Text,
 } from "theme-ui";
-import LivepeerLogo from "components/svgs/livepeer-logo";
+import candleLogo from "components/svgs/candle-logo";
 import { useEffect, useCallback, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
@@ -61,7 +61,7 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
     link: {
       label: t("read-post"),
       href:
-        "https://medium.com/@candlelabs/the-livepeer-roadmap-2021-and-beyond-5281776e9b3d",
+        "https://medium.com/@candlelabs/",
       isExternal: true,
     },
   };
@@ -156,7 +156,7 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
             justifyContent: "space-between",
             height: navHeight,
           }}>
-          <LivepeerLogo
+          <candleLogo
             isDark={isDark}
             disableHover={isPrimer ? true : false}
           />
@@ -240,7 +240,7 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
               justifyContent: "space-between",
               height: navHeight,
             }}>
-            <LivepeerLogo isDark={isDark} />
+            <candleLogo isDark={isDark} />
             <Flex sx={{ alignItems: "center" }}>
               <NavLink
                 sx={{

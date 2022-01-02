@@ -39,7 +39,7 @@ const nFormatter = (num, digits) => {
 
 const getProtocolStatistics = async () => {
   const graphqlResponse = await fetch(
-    "https://api.thegraph.com/subgraphs/name/livepeer/livepeer",
+    "https://api.thegraph.com/subgraphs/name/candle/candle",
     {
       method: "POST",
       headers: {
@@ -74,7 +74,7 @@ const getTotalActiveNodes = async () => {
     }
   }`;
   let response = await request(
-    "https://api.thegraph.com/subgraphs/name/livepeer/livepeer",
+    "https://api.thegraph.com/subgraphs/name/candle/candle",
     query,
     {
       where: {
@@ -94,7 +94,7 @@ const getTotalDelegators = async () => {
     }
   }`;
     let response = await request(
-      "https://api.thegraph.com/subgraphs/name/livepeer/livepeer",
+      "https://api.thegraph.com/subgraphs/name/candle/candle",
       query,
       {
         first: PAGE_SIZE,
@@ -129,28 +129,28 @@ export {
   getProtocolStatistics,
 };
 
-type LivepeerComUsageParams = {
+type candleComUsageParams = {
   fromTime: number;
   toTime: number;
 };
 
-export const getLivepeerComUsageData = async (
-  params?: LivepeerComUsageParams
+export const getcandleComUsageData = async (
+  params?: candleComUsageParams
 ) => {
   try {
-    const endpoint = `https://livepeer.com/api/usage${
+    const endpoint = `https://candle.com/api/usage${
       params ? `?fromTime=${params.fromTime}&toTime=${params.toTime}` : ""
     }`;
 
-    const livepeerComUsageDataReponse = await fetch(endpoint, {
+    const candleComUsageDataReponse = await fetch(endpoint, {
       method: "GET",
       headers: {
-        Authorization: `Bearer ${process.env.LIVEPEER_COM_API_ADMIN_TOKEN}`,
+        Authorization: `Bearer ${process.env.candle_COM_API_ADMIN_TOKEN}`,
       },
     });
 
-    const livepeerComUsageData = await livepeerComUsageDataReponse.json();
-    return livepeerComUsageData;
+    const candleComUsageData = await candleComUsageDataReponse.json();
+    return candleComUsageData;
   } catch (e) {
     console.log(e);
   }
@@ -199,7 +199,7 @@ const getTotalFeeDerivedMinutes = async () => {
   let pricePerPixelIndex = pricePerPixel.length - 1;
 
   const res = await fetch(
-    "https://api.thegraph.com/subgraphs/name/livepeer/livepeer",
+    "https://api.thegraph.com/subgraphs/name/candle/candle",
     {
       method: "POST",
       headers: {
@@ -254,10 +254,10 @@ const getTotalFeeDerivedMinutes = async () => {
 };
 
 export const getTotalMinutes = async () => {
-  const livepeerComDayData = await getLivepeerComUsageData();
-  const totalLivepeerComUsage = livepeerComDayData.reduce((x, y) => {
+  const candleComDayData = await getcandleComUsageData();
+  const totalcandleComUsage = candleComDayData.reduce((x, y) => {
     return x + y.sourceSegmentsDuration / 60;
   }, 0);
   const totalFeeDerivedMinutes = await getTotalFeeDerivedMinutes();
-  return totalFeeDerivedMinutes + totalLivepeerComUsage;
+  return totalFeeDerivedMinutes + totalcandleComUsage;
 };

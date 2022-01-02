@@ -8,7 +8,7 @@ const Masthead = ({ title }) => {
           <Subheading>{title}</Subheading>
           <Heading>
             <img
-              src="/images/primer/livepeer-letters.svg"
+              src="/images/primer/candle-letters.svg"
               width="600"
               height="358"
               style={{

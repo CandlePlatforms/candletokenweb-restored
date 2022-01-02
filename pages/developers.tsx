@@ -14,9 +14,9 @@ const Developers = () => {
     meta: {
       title: t("page-developers-meta-title"),
       description: t("page-developers-meta-description"),
-      url: "https://livepeer.org/developers",
+      url: "https://candle.org/developers",
       siteName: "Candle.org",
-      image: "https://livepeer.org/OG.png",
+      image: "https://candle.org/OG.png",
       twitterUsername: "@Candle_Labs",
     },
   };

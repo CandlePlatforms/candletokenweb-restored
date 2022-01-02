@@ -13,7 +13,7 @@ type Props = {
   id?: string;
 };
 
-const LivepeerLogo = ({
+const candleLogo = ({
   pushSx,
   isDark,
   isLink = true,
@@ -172,4 +172,4 @@ const LivepeerLogo = ({
   );
 };
 
-export default LivepeerLogo;
+export default candleLogo;

@@ -8,7 +8,7 @@ import {
   getTotalActiveNodes,
   getTotalMinutes,
   getProtocolStatistics,
-  getLivepeerComUsageData,
+  getcandleComUsageData,
 } from "lib/document-helpers";
 import { HeadProps } from "components/primitives/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -21,9 +21,9 @@ const VideoMinerPage = ({ totalVolumeUSD, totalActiveNodes, totalMinutes }) => {
     meta: {
       title: t("page-products-meta-title"),
       description: t("page-products-meta-description"),
-      url: "https://livepeer.org/products",
+      url: "https://candle.org/products",
       siteName: "Candle.org",
-      image: "https://livepeer.org/OG.png",
+      image: "https://candle.org/OG.png",
       twitterUsername: "@Candle_Labs",
     },
   };
@@ -84,7 +84,7 @@ export async function getStaticProps({ locale }) {
   let totalMinutes = 0;
   const { totalVolumeUSD } = await getProtocolStatistics();
   const totalActiveNodes = await getTotalActiveNodes();
-  if (process.env.LIVEPEER_COM_API_ADMIN_TOKEN) {
+  if (process.env.candle_COM_API_ADMIN_TOKEN) {
     totalMinutes = await getTotalMinutes();
   }
 

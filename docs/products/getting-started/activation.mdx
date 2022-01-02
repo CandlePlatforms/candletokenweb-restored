@@ -6,7 +6,7 @@ title: Activation
 
 ## Pre-requisites
 
-- Make sure you have `livepeer`[installed](/docs/installation/install-livepeer)
+- Make sure you have `candle`[installed](/docs/installation/install-candle)
 - Make sure you have access to an
   [Ethereum JSON-RPC URL](/docs/installation/connect-to-ethereum)
 - If you are transcoding with Nvidia GPUs:
@@ -37,7 +37,7 @@ IDs from 0 through 4.
 Start your orchestrator before activation:
 
 ```bash
-livepeer \
+candle \
     -network mainnet \
     -ethUrl <ETH_URL> \
     -ethAcctAddr <ETH_ACCT_ADDR> \ # Only required if you already have an ETH account you want to use
@@ -97,11 +97,11 @@ Your account should have:
 
 - ETH to pay for transaction fees
   - Recommendation: Start with a small amount and add more when needed.
-    `livepeer` and `livepeer_cli` will inform you if your account's ETH balance
+    `candle` and `candle_cli` will inform you if your account's ETH balance
     is insufficient to pay for transaction fees when attempting to submit the
     transactions
 - LPT to stake in order to activate
-  - Recommendation: Check the [explorer](https://explorer.livepeer.org/) and
+  - Recommendation: Check the [explorer](https://explorer.candle.org/) and
     find the 100th orchestrator with the most stake. This is the amount of stake
     required for you to activate. Note that more stake will help you receive
     more work
@@ -111,9 +111,9 @@ Your account should have:
 The active orchestrator set consists of the top 100 orchestrators with the most
 LPT stake on the network.
 
-Once you have your orchestrator running, you can activate using `livepeer_cli`.
+Once you have your orchestrator running, you can activate using `candle_cli`.
 
-1. Run `livepeer_cli`
+1. Run `candle_cli`
 
 2. Enter the number corresponding to the
    `Invoke multi-step "become an orchestrator"` option
@@ -173,7 +173,7 @@ Once you have your orchestrator running, you can activate using `livepeer_cli`.
    If the active orchestrator set is full (i.e. at 100), the minimum stake you
    need to stake to activate is the lowest total stake of an orchestrator in the
    active set. You can find this information in the
-   [explorer](https://explorer.livepeer.org/).
+   [explorer](https://explorer.candle.org/).
 
 9. Wait for transactions to confirm. You should see the logs of your
    orchestrator indicating transactions being submitted and confirmed on-chain.

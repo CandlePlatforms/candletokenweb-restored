@@ -1,6 +1,6 @@
 import { useRef, useEffect } from "react";
 import { Box, Link as A, Grid, Heading, Text } from "theme-ui";
-import LivepeerIconSvg from "components/svgs/icons/livepeer";
+import candleIconSvg from "components/svgs/icons/candle";
 import sectionEffect from "lib/animations/section-effect";
 
 const MissionSection = ({
@@ -36,7 +36,7 @@ const MissionSection = ({
           maxWidth: "984px",
           position: "relative",
         }}>
-        <LivepeerIconSvg
+        <candleIconSvg
           pushSx={{
             position: "absolute",
             width: "unset",
@@ -85,7 +85,7 @@ const MissionSection = ({
                 help capture this opportunity and fulfill the project’s mission
                 as laid out in the original{" "}
                 <A
-                  href="https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md"
+                  href="https://github.com/CandlePlatforms/wiki/blob/master/WHITEPAPER.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   variant="accent"
@@ -94,7 +94,7 @@ const MissionSection = ({
                 </A>{" "}
                 and{" "}
                 <A
-                  href="https://github.com/livepeer/wiki/blob/master/GOVERNANCE-FOUNDERS-STATEMENT.md"
+                  href="https://github.com/CandlePlatforms/wiki/blob/master/GOVERNANCE-FOUNDERS-STATEMENT.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   variant="accent"

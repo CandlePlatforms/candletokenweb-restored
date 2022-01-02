@@ -5,7 +5,7 @@ title: Performance Leaderboard
 # Orchestrator Performance Leaderboard
 
 The orchestrator performance leaderboard can be found in the
-[Protocol Explorer](https://explorer.livepeer.org/?orchestratorTable=performance).
+[Protocol Explorer](https://explorer.candle.org/?orchestratorTable=performance).
 
 ## What is the orchestrator performance leaderboard?
 
@@ -32,16 +32,16 @@ as well.
 
 The software used to run these tests consists of:
 
-- A [broadcaster node](https://github.com/livepeer/go-livepeer)
-- A [stream-tester](https://github.com/livepeer/stream-tester) that sends
+- A [broadcaster node](https://github.com/CandlePlatforms/go-candle)
+- A [stream-tester](https://github.com/CandlePlatforms/stream-tester) that sends
   streams to the broadcaster
 - A
-  [monitoring instance](https://github.com/livepeer/docker-livepeer/tree/master/monitoring)
+  [monitoring instance](https://github.com/CandlePlatforms/docker-candle/tree/master/monitoring)
   that collects metrics from the broadcaster
 - An
-  [orch-tester process](https://github.com/livepeer/stream-tester/tree/master/cmd/orch-tester)
+  [orch-tester process](https://github.com/CandlePlatforms/stream-tester/tree/master/cmd/orch-tester)
   that automates tests and saves metrics
-- A [leaderboard API](https://github.com/livepeer/leaderboard-serverless) that
+- A [leaderboard API](https://github.com/CandlePlatforms/leaderboard-serverless) that
   serves aggregated and raw test metrics
 
 ## What happens during a transcoding test?
@@ -176,7 +176,7 @@ A few things you can explore to improve the speed of transcoding include:
 - Review the [hardware requirements](/docs/products/reference/hardware) and
   consider upgrading your hardware
 - If you have access to a
-  [supported GPU](https://github.com/livepeer/wiki/blob/master/GPU-SUPPORT.md):
+  [supported GPU](https://github.com/CandlePlatforms/wiki/blob/master/GPU-SUPPORT.md):
   - Consider running an orchestrator with GPU transcoding
   - Consider running a standalone orchestrator that sends transcoding tasks to
     standalone GPU transcoders

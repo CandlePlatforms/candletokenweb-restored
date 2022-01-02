@@ -7,7 +7,7 @@ title: Install for Development
 To pull the latest pre-release version:
 
 ```bash
-docker pull livepeer/go-livepeer:master
+docker pull candle/go-candle:master
 ```
 
 ### Installing a binary pre-release
@@ -16,7 +16,7 @@ Binaries are produced from every GitHub commit and download links are available
 in
 [the #builds channel of the Candle Discord server](https://discord.gg/drApskX).
 
-These binaries are produced from go-livepeer's CI process, shown in this
+These binaries are produced from go-candle's CI process, shown in this
 diagram:
 
 ![image](https://user-images.githubusercontent.com/257909/58923612-3709a800-86f5-11e9-838b-6202f296bce8.png)
@@ -25,7 +25,7 @@ diagram:
 
 ### System dependencies
 
-Building `livepeer` requires some system dependencies.
+Building `candle` requires some system dependencies.
 
 Linux (Ubuntu: 16.04 or 18.04):
 
@@ -44,12 +44,12 @@ brew update && brew install pkg-config autoconf
 Windows:
 
 The steps in
-[this file](https://github.com/livepeer/go-livepeer/blob/master/.github/workflows/windows.yml)
+[this file](https://github.com/CandlePlatforms/go-candle/blob/master/.github/workflows/windows.yml)
 can be used as a reference.
 
 ### Go
 
-Building `livepeer` requires Go. Follow the
+Building `candle` requires Go. Follow the
 [official Go installation instructions](https://golang.org/doc/install).
 
 ### Build and install
@@ -57,8 +57,8 @@ Building `livepeer` requires Go. Follow the
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/livepeer/go-livepeer.git
-   cd go-livepeer
+   git clone https://github.com/CandlePlatforms/go-candle.git
+   cd go-candle
    ```
 
 2. Install `ffmpeg` dependencies:
@@ -87,11 +87,11 @@ Building `livepeer` requires Go. Follow the
    # export BUILD_TAGS=dev
    ```
 
-4. Build and install `livepeer`:
+4. Build and install `candle`:
 
    ```bash
    make
-   cp livepeer* /usr/local/bin
+   cp candle* /usr/local/bin
    ```
 
 ## Build with Docker
@@ -99,8 +99,8 @@ Building `livepeer` requires Go. Follow the
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/livepeer/go-livepeer.git
-   cd go-livepeer
+   git clone https://github.com/CandlePlatforms/go-candle.git
+   cd go-candle
    ```
 
 2. Export tags:
@@ -112,12 +112,12 @@ Building `livepeer` requires Go. Follow the
 3. Build image:
 
    ```bash
-   docker build -t livepeerbinary:debian -f docker/Dockerfile.debian .
+   docker build -t candlebinary:debian -f docker/Dockerfile.debian .
    ```
 
 <Pagination
   nextStep={{
     title: "Connect to Ethereum",
-    href: "/docs/installation/configuring-livepeer",
+    href: "/docs/installation/configuring-candle",
   }}
 />

@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import LivepeerIconSvg from "components/svgs/icons/livepeer";
+import candleIconSvg from "components/svgs/icons/candle";
 import DocsMobileNav from "../docs-mobile.nav";
 import DarkModeSwitch from "components/primitives/darkModeSwitch";
 import Link from "next/link";
@@ -41,7 +41,7 @@ const DocsNav = ({ setColorMode, colorMode, selected, menu }: Props) => {
           <div sx={{ display: "flex", alignItems: "center" }}>
             <Link href="/">
               <i sx={{ cursor: "pointer" }}>
-                <LivepeerIconSvg pushSx={{ width: "24px", height: "22px" }} />
+                <candleIconSvg pushSx={{ width: "24px", height: "22px" }} />
               </i>
             </Link>
             <p sx={{ color: "docs.lightGray", fontSize: "16px", ml: "8px" }}>

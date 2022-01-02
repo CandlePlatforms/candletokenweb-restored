@@ -14,7 +14,7 @@ title: Dual Mine
 ### Choosing a miner
 
 Dual ethash mining and transcoding has been tested on the GPUs in
-[this list](https://github.com/livepeer/wiki/blob/master/GPU-SUPPORT.md) and
+[this list](https://github.com/CandlePlatforms/wiki/blob/master/GPU-SUPPORT.md) and
 with the following miners:
 
 - [t-rex](https://github.com/trexminer/T-Rex)
@@ -31,16 +31,16 @@ substituted for ethminer as well.
 
 If you are using a pre-Volta GPU, the recommendation is to use t-rex because it
 is, at the time of writing, the most popular and efficient ethash miner that has
-been tested with `livepeer`. Other miners that have been tested successfully
-with `livepeer` can be substituted for t-rex as well.
+been tested with `candle`. Other miners that have been tested successfully
+with `candle` can be substituted for t-rex as well.
 
 Note that regardless of the miner used, the VRAM available on your GPU will
 affect the number of concurrent streams that can be transcoded while mining.
 
-### Run a ethminer + livepeer script
+### Run a ethminer + candle script
 
 If you are using ethminer,
-[this script](https://github.com/livepeer/ethminer/blob/master/start.sh) can be
+[this script](https://github.com/CandlePlatforms/ethminer/blob/master/start.sh) can be
 used to start both processes.
 
 If you want to setup a dual mining manually perhaps because the script does not
@@ -66,7 +66,7 @@ Take note of the following points that are mentioned in the docs:
 
 - The `CUDA_VISIBLE_DEVICES` environment variable should be set with device IDs
   of the GPUS you will be using before the MPS daemon is started, but it should
-  NOT be set before starting the miner and `livepeer`
+  NOT be set before starting the miner and `candle`
 - If you are using a mix of pre-Volta and post-Volta GPUs, make sure to read
   this [section](https://docs.nvidia.com/deploy/mps/index.html#topic_3_3_4) to
   avoid device ID issues
@@ -109,14 +109,14 @@ flag did not seem to provide very granual control over the GPU workload so
 adjusting it to a level at which CUDA MPS could work led to a larger hashrate
 drop which is why ethminer is recommended if you plan on using CUDA MPS.
 
-### Run livepeer
+### Run candle
 
 1. If you are using CUDA MPS, wait until the miner completes DAG generation
 
-2. Run `livepeer` on the same machine as the miner and using the same GPU device
+2. Run `candle` on the same machine as the miner and using the same GPU device
    IDs as the miner with the `-nvidia` flag
 
-3. If you are using CUDA MPS, `livepeer` will need to be stopped when the miner
+3. If you are using CUDA MPS, `candle` will need to be stopped when the miner
    re-generates the DAG to avoid transcoding issues and can be re-started when
    DAG generation completes
 

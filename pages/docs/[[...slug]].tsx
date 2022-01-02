@@ -103,8 +103,8 @@ const Docs = ({
               ? "Candle Documentation"
               : meta.title,
           description: meta.description,
-          url: `https://livepeer.org${router.asPath}`,
-          image: "https://livepeer.org/OG_docs.png",
+          url: `https://candle.org${router.asPath}`,
+          image: "https://candle.org/OG_docs.png",
         },
       }}>
       <div

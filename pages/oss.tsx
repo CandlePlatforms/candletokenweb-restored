@@ -56,9 +56,9 @@ const CodePage = () => {
     meta: {
       title: t("page-oss-meta-title"),
       description: t("page-oss-meta-description"),
-      url: "https://livepeer.org/oss",
-      siteName: "Candle.org",
-      image: "https://livepeer.org/OG.png",
+      url: "https://candlelabs.org/oss",
+      siteName: "CandleLabs.org",
+      image: "https://candleLabs.org/OG.png",
       twitterUsername: "@Candle_Labs",
     },
   };

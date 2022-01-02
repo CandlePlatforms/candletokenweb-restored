@@ -5,10 +5,10 @@ import { FiCode } from "react-icons/fi";
 import TokenSvg from "components/svgs/token";
 import GpuSvg from "components/svgs/gpu";
 
-const LetLivepeerDoSection = ({
+const LetcandleDoSection = ({
   developers,
   tokenholders,
-  videoMiners,
+  candle,
   label,
   title,
   subtitle,
@@ -30,8 +30,8 @@ const LetLivepeerDoSection = ({
     },
     {
       icon: <GpuSvg style={{ width: 28, height: 28 }} />,
-      title: videoMiners.title,
-      description: videoMiners.description,
+      title: candle.title,
+      description: candle.description,
       linkProps: { link: { label: "/products", href: "/products" } },
       isClickable: true,
     },
@@ -65,4 +65,4 @@ const LetLivepeerDoSection = ({
   );
 };
 
-export default LetLivepeerDoSection;
+export default LetcandleDoSection;

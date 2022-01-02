@@ -4,16 +4,16 @@ title: Configuration
 
 # Overview
 
-`livepeer` has a number of configurable options. You can
-[set your configuration using command-line flags, environment variables, or a config file](/docs/installation/configuring-livepeer).
+`candle` has a number of configurable options. You can
+[set your configuration using command-line flags, environment variables, or a config file](/docs/installation/configuring-candle).
 
 A comprehensive list of options can be found below. They are sourced and
 regularly updated from
-[this file](https://github.com/livepeer/go-livepeer/blob/master/cmd/livepeer/livepeer.go).
+[this file](https://github.com/CandlePlatforms/go-candle/blob/master/cmd/candle/candle.go).
 The
-[go-livepeer developer docs](https://github.com/livepeer/go-livepeer/tree/master/doc)
+[go-candle developer docs](https://github.com/CandlePlatforms/go-candle/tree/master/doc)
 also contain instructions for using flags to enable certain functionality in
-`livepeer`.
+`candle`.
 
 # Options
 
@@ -132,7 +132,7 @@ verbosity: Log verbosity -  {4|5|6}. No default
 
 metadataQueueUri: URI for message broker to send operation metadata. No default
 
-metadataAmqpExchange: Name of AMQP exchange to send operation metadata. Default `lp_golivepeer_metadata`
+metadataAmqpExchange: Name of AMQP exchange to send operation metadata. Default `lp_gocandle_metadata`
 
 metadataPublishTimeout: Max time (ms) to wait in background for publishing operation metadata events. Default `1000 (1s)`
 ```

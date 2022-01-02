@@ -2,7 +2,7 @@ import SectionLayout from "components/layouts/section";
 import { Link as A, Heading, Text, Box } from "theme-ui";
 import Accordion from "components/primitives/accordion";
 import { AccordionItemProps } from "components/primitives/accordion/item";
-import LivepeerIconSvg from "components/svgs/icons/livepeer";
+import candleIconSvg from "components/svgs/icons/candle";
 import BasementIconSvg from "components/svgs/icons/basement";
 import Maintainer, { MaintainerProps } from "./maintainer";
 
@@ -14,7 +14,7 @@ const WhoIsMaintainingSection = ({
   text1,
   text2,
 }) => {
-  const livepeerMaintainers: MaintainerProps[] = [
+  const candleMaintainers: MaintainerProps[] = [
     {
       name: "Adam Soffer",
       position: role1,
@@ -62,7 +62,7 @@ const WhoIsMaintainingSection = ({
       heading: {
         title: "Candle, Inc.",
         icon: {
-          children: <LivepeerIconSvg pushSx={{ width: "20px" }} isDark />,
+          children: <candleIconSvg pushSx={{ width: "20px" }} isDark />,
         },
         pushSx: {
           h5: {
@@ -74,7 +74,7 @@ const WhoIsMaintainingSection = ({
       },
       children: (
         <Box pl={3} className="maintainer">
-          {livepeerMaintainers.map((m) => (
+          {candleMaintainers.map((m) => (
             <Maintainer key={`maintainer-${m.name}`} {...m} />
           ))}
         </Box>
@@ -131,7 +131,7 @@ const WhoIsMaintainingSection = ({
           <>
             Anyone is welcome and encouraged to help improve the site on{" "}
             <A
-              href="https://github.com/CandlePlatforms"
+              href="https://github.com/CandlePlatforms/candletokenweb"
               target="_blank"
               variant="accent">
               GitHub

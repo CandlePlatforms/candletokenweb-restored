@@ -7,7 +7,7 @@ import CodeEditorBox from "components/layouts/code-editor-box";
 
 const lines: AnimatedLineProps[] = [
   {
-    frames: [{ text: "livepeer -broadcaster -network mainnet", isBold: true }],
+    frames: [{ text: "candle -broadcaster -network mainnet", isBold: true }],
   },
   {
     frames: [

@@ -35,12 +35,12 @@ const Footer = ({
         { label: t("nav-products"), href: "/products" },
         {
           label: t("nav-protocol-explorer"),
-          href: "https://explorer.livepeer.org/",
+          href: "https://explorer.candle.org/",
           isExternal: true,
         },
         {
           label: t("nav-the-grant-program"),
-          href: "https://github.com/livepeer/Grant-Program",
+          href: "https://github.com/CandlePlatforms/Grant-Program",
           isExternal: true,
         },
       ],
@@ -64,7 +64,7 @@ const Footer = ({
         },
         {
           label: t("nav-the-whitepaper"),
-          href: "https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md",
+          href: "https://github.com/CandlePlatforms/wiki/blob/master/WHITEPAPER.md",
           isExternal: true,
         },
         { label: t("nav-faq"), href: "/faq" },
@@ -106,7 +106,7 @@ const Footer = ({
       ],
     },
     {
-      title: t("nav-about-livepeer"),
+      title: t("nav-about-candle"),
       items: [
         { label: t("nav-about"), href: "/about" },
         { label: "Jobs", href: "/jobs" },
@@ -120,7 +120,7 @@ const Footer = ({
         },
         {
           label: t("nav-contact"),
-          href: "mailto:contact@livepeer.org",
+          href: "mailto:contact@candlelabs.org",
         },
       ],
     },
@@ -176,7 +176,7 @@ const Footer = ({
             <Text
               variant="small"
               sx={{ textAlign: ["center", null, null, "left"] }}>
-              Copyright © {new Date().getFullYear()} Candle, Inc.
+              Copyright © {new Date().getFullYear()} Candle Labs, Inc.
             </Text>
           </Flex>
         </Container>

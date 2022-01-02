@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "livepeer-website",
+  "name": "candle-website",
   "version": "0.4.0-rc.0",
   "main": "index.js",
   "license": "MIT",
@@ -61,7 +61,7 @@
     "zod": "^2.0.0-beta.30"
   },
   "devDependencies": {
-    "@livepeer/prettier-config": "^1.0.1",
+    "@candle/prettier-config": "^1.0.1",
     "@types/classnames": "^2.2.10",
     "@types/node": "^14.0.27",
     "@types/react": "^16.9.44",

@@ -17,7 +17,7 @@ const listItems: ListItemProps[] = [
       <>
         Read the{" "}
         <A
-          href="https://github.com/livepeer/livepeerjs/blob/master/CONTRIBUTING.md"
+          href="https://github.com/CandlePlatforms/"
           target="_blank"
           rel="noopener noreferrer"
           variant="accent"
@@ -34,7 +34,7 @@ const listItems: ListItemProps[] = [
       <>
         Look for “good first issues” in{" "}
         <A
-          href="https://github.com/livepeer/livepeerjs"
+          href="https://github.com/CandlePlatforms/"
           target="_blank"
           rel="noopener noreferrer"
           variant="accent"
@@ -43,16 +43,16 @@ const listItems: ListItemProps[] = [
         </A>{" "}
         (Javascript),{" "}
         <A
-          href="https://github.com/livepeer/lpms"
+          href="https://github.com/CandlePlatforms/"
           target="_blank"
           rel="noopener noreferrer"
           variant="accent"
           data-dark>
-          LPMS
+          CPMS
         </A>{" "}
-        (video development in C or Go), or{" "}
+        (website development), or{" "}
         <A
-          href="https://github.com/livepeer/go-livepeer"
+          href="https://github.com/CandlePlatforms/go-CNDL"
           target="_blank"
           rel="noopener noreferrer"
           variant="accent"
@@ -69,7 +69,7 @@ const listItems: ListItemProps[] = [
       <>
         View the{" "}
         <A
-          href="https://github.com/livepeer/Grant-Program"
+          href="https://github.com/CandlePlatforms/Grant-Program"
           target="_blank"
           rel="noopener noreferrer"
           variant="accent"
@@ -110,12 +110,12 @@ const listItems: ListItemProps[] = [
         </Link>{" "}
         or enterprise hosted services <br /> at{" "}
         <A
-          href="https://livepeer.com"
+          href="https://CandleLabs.org"
           target="_blank"
           rel="noopener noreferrer"
           variant="accent"
           data-dark>
-          livepeer.com
+          CandleLabs.org
         </A>
         .
       </>
