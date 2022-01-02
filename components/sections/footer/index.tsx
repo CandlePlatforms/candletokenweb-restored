@@ -40,7 +40,7 @@ const Footer = ({
         },
         {
           label: t("nav-the-grant-program"),
-          href: "https://github.com/livepeer/Grant-Program",
+          href: "https://github.com/CandlePlatforms/Grant-Program",
           isExternal: true,
         },
       ],
@@ -64,7 +64,7 @@ const Footer = ({
         },
         {
           label: t("nav-the-whitepaper"),
-          href: "https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md",
+          href: "https://github.com/CandlePlatforms/wiki/blob/master/WHITEPAPER.md",
           isExternal: true,
         },
         { label: t("nav-faq"), href: "/faq" },

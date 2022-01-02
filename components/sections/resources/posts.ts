@@ -37,7 +37,7 @@ const posts: Post[] = [
       "Protocol and Economic Incentives For a Decentralized Live Video Streaming Network",
     subtitle: "By Doug Petkanics & Eric Tang",
     link: {
-      href: "https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md",
+      href: "https://github.com/CandlePlatforms/wiki/blob/master/WHITEPAPER.md",
       isExternal: true,
     },
     category: categories[0],
@@ -52,7 +52,7 @@ const posts: Post[] = [
       "Candle Scalability on Ethereum through Orchestration, Probabilistic Micropayments, and Offchain Job Negotiation",
     subtitle: "By Doug Petkanics & Yondon Fu",
     link: {
-      href: "https://github.com/livepeer/wiki/blob/master/STREAMFLOW.md",
+      href: "https://github.com/CandlePlatforms/wiki/blob/master/STREAMFLOW.md",
       isExternal: true,
     },
     category: categories[0],

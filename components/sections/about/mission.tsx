@@ -85,7 +85,7 @@ const MissionSection = ({
                 help capture this opportunity and fulfill the project’s mission
                 as laid out in the original{" "}
                 <A
-                  href="https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md"
+                  href="https://github.com/CandlePlatforms/wiki/blob/master/WHITEPAPER.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   variant="accent"
@@ -94,7 +94,7 @@ const MissionSection = ({
                 </A>{" "}
                 and{" "}
                 <A
-                  href="https://github.com/livepeer/wiki/blob/master/GOVERNANCE-FOUNDERS-STATEMENT.md"
+                  href="https://github.com/CandlePlatforms/wiki/blob/master/GOVERNANCE-FOUNDERS-STATEMENT.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   variant="accent"

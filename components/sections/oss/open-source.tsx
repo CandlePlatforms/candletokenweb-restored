@@ -16,7 +16,7 @@ const OpenSourceSection = ({ title, subtitle, ctaText, cards }) => {
       linkProps: {
         link: {
           label: "/go-livepeer",
-          href: "https://github.com/livepeer/go-livepeer",
+          href: "https://github.com/CandlePlatforms/go-livepeer",
           isExternal: true,
         },
         status: "Go",
@@ -29,7 +29,7 @@ const OpenSourceSection = ({ title, subtitle, ctaText, cards }) => {
       linkProps: {
         link: {
           label: "/protocol",
-          href: "https://github.com/livepeer/protocol",
+          href: "https://github.com/CandlePlatforms/protocol",
           isExternal: true,
         },
         status: "Solidity",
@@ -42,7 +42,7 @@ const OpenSourceSection = ({ title, subtitle, ctaText, cards }) => {
       linkProps: {
         link: {
           label: "/lpms",
-          href: "https://github.com/livepeer/lpms",
+          href: "https://github.com/CandlePlatforms/lpms",
           isExternal: true,
         },
         status: "Go",
@@ -65,7 +65,7 @@ const OpenSourceSection = ({ title, subtitle, ctaText, cards }) => {
       headingContainerPushSx={{ mb: 4 }}
       withAnimation>
       <A
-        href="https://github.com/livepeer/"
+        href="https://github.com/CandlePlatforms/"
         target="_blank"
         rel="noopener noreferrer"
         variant="buttons.primary"

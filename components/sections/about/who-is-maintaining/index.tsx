@@ -131,7 +131,7 @@ const WhoIsMaintainingSection = ({
           <>
             Anyone is welcome and encouraged to help improve the site on{" "}
             <A
-              href="https://github.com/livepeer/livepeer-org"
+              href="https://github.com/CandlePlatforms/livepeer-org"
               target="_blank"
               variant="accent">
               GitHub
