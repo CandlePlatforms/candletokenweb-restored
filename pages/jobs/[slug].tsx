@@ -16,7 +16,7 @@ const Page = ({ title, slug, body }) => {
       description: "Join Us. From Anywhere.",
       url: `https://candelabs.org/jobs/${slug}`,
       siteName: "Candle.org",
-      image: "https://candelabs.org/OG.png",
+      image: "https://candelabs.org/go.png",
       twitterUsername: "@Candle_Labs",
     },
   };

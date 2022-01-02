@@ -16,7 +16,7 @@ const Developers = () => {
       description: t("page-developers-meta-description"),
       url: "https://candelabs.org/developers",
       siteName: "Candle.org",
-      image: "https://candelabs.org/OG.png",
+      image: "https://candelabs.org/go.png",
       twitterUsername: "@Candle_Labs",
     },
   };

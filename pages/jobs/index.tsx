@@ -13,7 +13,7 @@ const headProps: HeadProps = {
     description: "Join Us. From Anywhere.",
     url: "https://candelabs.org/jobs",
     siteName: "Candle.org",
-    image: "https://candelabs.org/OG.png",
+    image: "https://candelabs.org/go.png",
     twitterUsername: "@Candle_Labs",
   },
 };

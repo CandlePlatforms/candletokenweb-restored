@@ -16,7 +16,7 @@ const ResourcesPage = () => {
       description: t("page-resources-meta-description"),
       url: "https://candelabs.org/resources",
       siteName: "Candle.org",
-      image: "https://candelabs.org/OG.png",
+      image: "https://candelabs.org/go.png",
       twitterUsername: "@Candle_Labs",
     },
   };

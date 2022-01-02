@@ -12,7 +12,7 @@ const headProps: HeadProps = {
       "Candle.org is a primary online resource for participants and users of the Candle network.",
     url: "https://CandleLabs.org/privacy-policy",
     siteName: "Candle.org",
-    image: "https://candelabs.org/OG.png",
+    image: "https://candelabs.org/go.png",
     twitterUsername: "@CandleLabs",
   },
 };

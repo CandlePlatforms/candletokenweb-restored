@@ -29,7 +29,7 @@ const HomePage = ({ youtubeVideos, totalActiveStake }) => {
       description: t("page-home-meta-description"),
       url: "https://CandleLabs.org",
       siteName: "Candle.org",
-      image: "https://candelabs.org/OG.png",
+      image: "https://candelabs.org/go.png",
       twitterUsername: "@CandleLabs",
     },
   };

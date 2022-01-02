@@ -58,7 +58,7 @@ const CodePage = () => {
       description: t("page-oss-meta-description"),
       url: "https://candelabs.org/oss",
       siteName: "Candle.org",
-      image: "https://candelabs.org/OG.png",
+      image: "https://candelabs.org/go.png",
       twitterUsername: "@Candle_Labs",
     },
   };

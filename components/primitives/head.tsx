@@ -16,7 +16,7 @@ const defaultMeta: MetaType = {
     "Decentralized applications and projects, built on the Ethereum blockchain. Candle is live on Ethereum mainnet.",
   url: "https://candlelabs.org",
   siteName: "Candle",
-  image: "https://candelabs.org/OG.png",
+  image: "https://candelabs.org/go.png",
   twitterUsername: "@Candle_Labs",
 };
 
