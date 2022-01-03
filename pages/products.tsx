@@ -1,9 +1,9 @@
 import PageLayout from "components/layouts/page";
-import HowVideoMiningWorksSection from "components/sections/products/how-video-mining-works";
+import HowProductsWorksSection from "components/sections/products/how-video-mining-works";
 import LetTheNumbersTalkSection from "components/sections/products/let-the-numbers-talk";
 import HowToGetStartedSection from "components/sections/products/how-to-get-started";
 import RequirementsSection from "components/sections/products/requirements";
-import VideoMinerHero from "components/sections/products/hero";
+import ProductsHero from "components/sections/products/hero";
 import {
   getTotalActiveNodes,
   getTotalMinutes,
@@ -14,7 +14,7 @@ import { HeadProps } from "components/primitives/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
-const VideoMinerPage = ({ totalVolumeUSD, totalActiveNodes, totalMinutes }) => {
+const ProductsPage = ({ totalVolumeUSD, totalActiveNodes, totalMinutes }) => {
   const { t } = useTranslation(["products", "developers", "common"]);
 
   const headProps: HeadProps = {
@@ -30,7 +30,7 @@ const VideoMinerPage = ({ totalVolumeUSD, totalActiveNodes, totalMinutes }) => {
 
   return (
     <PageLayout headProps={headProps} footerProps={{ prefooter: null }}>
-      <VideoMinerHero
+      <ProductsHero
         title={t("page-products-title")}
         subtitle={t("page-products-intro")}
         cta={{
@@ -38,7 +38,7 @@ const VideoMinerPage = ({ totalVolumeUSD, totalActiveNodes, totalMinutes }) => {
           href: "/docs/products/getting-started/overview",
         }}
       />
-      <HowVideoMiningWorksSection
+      <HowProductsWorksSection
         title={t("page-products-how")}
         text1={t("page-products-how-text-one")}
         text2={t("page-products-how-text-two")}
@@ -95,7 +95,7 @@ export async function getStaticProps({ locale }) {
       totalMinutes,
       ...(await serverSideTranslations(locale, [
         "common",
-        "products",
+        "videominers",
         "developers",
       ])),
     },
@@ -103,4 +103,4 @@ export async function getStaticProps({ locale }) {
   };
 }
 
-export default VideoMinerPage;
+export default ProductsPage;
