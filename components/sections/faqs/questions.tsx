@@ -147,8 +147,8 @@ const questions: Question[] = [
           </li>
           <li>
             <AnswerLink
-              href="https://github.com/Candlelabs/Grant-Program"
-              label="https://github.com/Candlelabs/Grant-Program"
+              href="https://github.com/Candleplatforms/Grant-Program"
+              label="https://github.com/Candleplatforms/Grant-Program"
               isExternal
             />
           </li>

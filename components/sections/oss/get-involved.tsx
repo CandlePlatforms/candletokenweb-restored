@@ -34,32 +34,32 @@ const listItems: ListItemProps[] = [
       <>
         Look for “good first issues” in{" "}
         <A
-          href="https://github.com/CandlePlatforms/livepeerjs"
+          href="https://github.com/CandlePlatforms/candletokenweb"
           target="_blank"
           rel="noopener noreferrer"
           variant="accent"
           data-dark>
-          Candle.js
+          Candle Labs Website
         </A>{" "}
         (Javascript),{" "}
         <A
-          href="https://github.com/CandlePlatforms/lpms"
+          href="https://github.com/CandlePlatforms/docs"
           target="_blank"
           rel="noopener noreferrer"
           variant="accent"
           data-dark>
-          LPMS
+          docs
         </A>{" "}
-        (video development in C or Go), or{" "}
+        (documentation), or{" "}
         <A
-          href="https://github.com/CandlePlatforms/go-livepeer"
+          href="https://github.com/CandlePlatforms/governance"
           target="_blank"
           rel="noopener noreferrer"
           variant="accent"
           data-dark>
-          Go-Candle
+          Governance
         </A>{" "}
-        (go).
+        (react).
       </>
     ),
   },
@@ -102,20 +102,20 @@ const listItems: ListItemProps[] = [
     icon: <FiPlay />,
     children: (
       <>
-        Looking to build a video application using Candle? Check out our open{" "}
+        Looking to build within the Candle ecosystem? Check out our open{" "}
         <Link href="/docs/video-developers/overview" passHref>
           <A variant="accent" data-dark>
             developer docs
           </A>
         </Link>{" "}
-        or enterprise hosted services <br /> at{" "}
+        and support programs  <br /> at{" "}
         <A
-          href="https://livepeer.com"
+          href="https://candlelabs.org"
           target="_blank"
           rel="noopener noreferrer"
           variant="accent"
           data-dark>
-          livepeer.com
+          candlelabs.org
         </A>
         .
       </>
