@@ -34,10 +34,10 @@ const posts: Post[] = [
   {
     title: "The Candle Whitepaper",
     description:
-      "Protocol and Economic Incentives For a Decentralized Live Video Streaming Network",
-    subtitle: "By Doug Petkanics & Eric Tang",
+      "Protocol and Economic Incentives For a Decentralized Self-Governing Ecosystem",
+    subtitle: "By Samuel Walker and Nakata Oshito ",
     link: {
-      href: "https://github.com/CandlePlatforms/wiki/blob/master/WHITEPAPER.md",
+      href: "https://github.com/CandlePlatforms/wiki/Whitepaper.md",
       isExternal: true,
     },
     category: categories[0],
@@ -47,7 +47,7 @@ const posts: Post[] = [
     },
   },
   {
-    title: "The Candle Streamflow Paper",
+    title: "The Candle Paper",
     description:
       "Candle Scalability on Ethereum through Orchestration, Probabilistic Micropayments, and Offchain Job Negotiation",
     subtitle: "By Doug Petkanics & Yondon Fu",
@@ -76,7 +76,7 @@ const posts: Post[] = [
   {
     title: "The Candle Docs",
     description:
-      "Comprehensive documentation for both video developers and video miners.",
+      "Comprehensive documentation for both developers and entrepeneurs.",
     subtitle: "By Candle, Inc.",
     link: { href: "/docs" },
     category: categories[0],
