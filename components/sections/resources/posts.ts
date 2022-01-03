@@ -76,7 +76,7 @@ const posts: Post[] = [
   {
     title: "The Candle Docs",
     description:
-      "Comprehensive documentation for both video developers and video miners.",
+      "Comprehensive documentation for both users and builders.",
     subtitle: "By Candle, Inc.",
     link: { href: "/docs" },
     category: categories[0],

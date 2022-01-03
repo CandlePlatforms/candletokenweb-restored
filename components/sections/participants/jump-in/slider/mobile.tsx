@@ -60,7 +60,7 @@ const MobileJumpInSlider = () => {
       isActive: true,
     },
     {
-      title: "Video Miners",
+      title: "Products",
       description:
         "Transcode video on your infrastructure as a video miner in exchange for ETH and LPT rewards.",
       linkProps: {
