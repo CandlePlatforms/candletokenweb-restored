@@ -39,7 +39,7 @@ const lines: AnimatedLineProps[] = [
   {
     frames: [
       {
-        text: "***Candle is in Global Ecosystem Mode***",
+        text: "***Candle is in Gloa Mode***",
       },
     ],
     delay: 200,

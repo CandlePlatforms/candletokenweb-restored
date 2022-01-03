@@ -15,14 +15,14 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
 const ProductsPage = ({ totalVolumeUSD, totalActiveNodes, totalMinutes }) => {
-  const { t } = useTranslation(["products", "developers", "common"]);
+  const { t } = useTranslation(["videominers", "developers", "common"]);
 
   const headProps: HeadProps = {
     meta: {
       title: t("page-products-meta-title"),
       description: t("page-products-meta-description"),
       url: "https://candelabs.org/products",
-      siteName: "Candle.org",
+      siteName: "CandleLabs.org",
       image: "https://candelabs.org/go.png",
       twitterUsername: "@Candle_Labs",
     },
