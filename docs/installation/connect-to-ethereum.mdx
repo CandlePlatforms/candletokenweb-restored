@@ -4,8 +4,8 @@ title: Connect to Ethereum
 
 # Connect to Ethereum
 
-`livepeer` requires access to an [Ethereum](https://ethereum.org/en/) network
-for typical usage.
+`candle` requires access to an [Ethereum](https://ethereum.org/en/) network for
+typical usage.
 
 ## Connecting to a network
 
@@ -19,7 +19,7 @@ the option to switch to your own node later on.
 Hosted API services run Ethereum nodes on behalf of their users. Popular
 services include [Infura](https://infura.io/) and
 [Alchemy](https://alchemyapi.io/). Be aware that these services have their own
-pricing plans. That being said, the latest versions of `livepeer` should be able
+pricing plans. That being said, the latest versions of `candle` should be able
 to stay within the request limit for Infura's free tier at least for a single
 node.
 
@@ -29,7 +29,7 @@ network via Infura (all other flags omitted):
 To connect to mainnet:
 
 ```bash
-livepeer \
+candle \
     -network mainnet
     -ethUrl https://mainnet.infura.io/v3/<PROJECT_ID> # Visit https://infura.io to obtain a PROJECT_ID
 ```
@@ -37,7 +37,7 @@ livepeer \
 To connect to Rinkeby:
 
 ```bash
-livepeer \
+candle \
     -network rinkeby
     -ethUrl https://rinkeby.infura.io/v3/<PROJECT_ID> # Visit https://infura.io to obtain a PROJECT_ID
 ```
@@ -47,7 +47,7 @@ livepeer \
 If you want to run your own Ethereum node, you can use one of the clients listed
 [here](https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/). `geth`
 is recommended because it supports both mainnet and Rinkeby. Additionally, at
-this time `livepeer` has been the most thoroughly tested with `geth`.
+this time `candle` has been the most thoroughly tested with `geth`.
 
 #### Geth
 
@@ -60,7 +60,7 @@ this time `livepeer` has been the most thoroughly tested with `geth`.
    geth \
        -rpc \
        -rpcapi eth,net,web3 \
-       -rpcaddr <ADDRESS> # An address to bind on is required if geth is running on a different machine than livepeer
+       -rpcaddr <ADDRESS> # An address to bind on is required if geth is running on a different machine than candle
    ```
 
 3. Wait until `geth` is fully synced. Check that syncing is complete using the
@@ -81,18 +81,18 @@ this time `livepeer` has been the most thoroughly tested with `geth`.
 
    `geth` will be done syncing when `eth.syncing` returns false.
 
-4. Connect `livepeer` to `geth` with the following flags (all other flags
+4. Connect `candle` to `geth` with the following flags (all other flags
    omitted):
 
    ```bash
-   livepeer \
+   candle \
        -network mainnet \
-       -ethUrl http://localhost:8545 # Assumes that geth is running on the same machine as livepeer
+       -ethUrl http://localhost:8545 # Assumes that geth is running on the same machine as candle
    ```
 
 ## Supported networks
 
-`livepeer` supports the networks listed below. The required flags for connecting
+`candle` supports the networks listed below. The required flags for connecting
 to a network are described (all other flags are omitted).
 
 ### Mainnet
@@ -100,7 +100,7 @@ to a network are described (all other flags are omitted).
 Mainnet is the production public network.
 
 ```bash
-livepeer \
+candle \
     -network mainnet
     -ethUrl <ETH_URL> # URL for mainnet provider
 ```
@@ -110,7 +110,7 @@ livepeer \
 Rinkeby is the public test network.
 
 ```bash
-livepeer \
+candle \
     -network rinkeby
     -ethUrl <ETH_URL> # URL for Rinkeby provider
 ```
@@ -121,7 +121,7 @@ Custom private networks where the Candle smart contracts are deployed can be
 used for development purposes.
 
 ```bash
-livepeer \
+candle \
     -network <NETWORK_NAME> # Name of network
     -ethUrl <ETH_URL> # URL for private network provider
     -ethController <CONTROLLER_ADDR> # Address of the Controller smart contract deployed on the private network
@@ -133,7 +133,7 @@ Offchain networks that do not require interaction with the Candle smart
 contracts can be used for development purposes.
 
 ```bash
-livepeer \
+candle \
     -network offchain
 ```
 

@@ -72,7 +72,7 @@ const InfrastructureHero = ({ title, subtitle, cta }) => (
         }}>
         <CodeEditorBox
           sx={{ height: "100%" }}
-          tabs={[{ label: "bash", isSelected: true }, { label: "go-livepeer" }]}
+          tabs={[{ label: "bash", isSelected: true }, { label: "go-candle" }]}
           withLineNumbers>
           <CodeStoryAnimation lines={lines} />
         </CodeEditorBox>
