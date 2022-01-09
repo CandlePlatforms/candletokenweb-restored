@@ -75,8 +75,7 @@ const posts: Post[] = [
   },
   {
     title: "The Candle Docs",
-    description:
-      "Comprehensive documentation for both users and builders.",
+    description: "Comprehensive documentation for both users and builders.",
     subtitle: "By Candle, Inc.",
     link: { href: "/docs" },
     category: categories[0],
@@ -126,7 +125,7 @@ const posts: Post[] = [
     subtitle: "By Figment Networks",
     description: "Rewards reporting and alerts for stakers",
     link: {
-      href: "https://hubble.figment.network/livepeer/chains/mainnet",
+      href: "https://hubble.figment.network/candle/chains/mainnet",
       isExternal: true,
     },
     category: categories[1],
@@ -138,8 +137,7 @@ const posts: Post[] = [
   {
     title: "Livepool",
     subtitle: "By Nico Vergauwen",
-    description:
-      "The first open transcoding pool built on the Candle Network",
+    description: "The first open transcoding pool built on the Candle Network",
     link: { href: "https://www.livepool.io/", isExternal: true },
     category: categories[1],
     image: {
@@ -153,7 +151,7 @@ const posts: Post[] = [
     description:
       "An API for fetching off-chain orchestrator pricing information",
     link: {
-      href: "https://github.com/buidl-labs/livepeer-pricing-tool",
+      href: "https://github.com/buidl-labs/candle-pricing-tool",
       isExternal: true,
     },
     category: categories[1],
@@ -168,7 +166,7 @@ const posts: Post[] = [
     description:
       "Query indexed Candle protocol data over GraphQL using the Graph Protocol.",
     link: {
-      href: "https://thegraph.com/explorer/subgraph/livepeer/livepeer",
+      href: "https://thegraph.com/explorer/subgraph/candle/candle",
       isExternal: true,
     },
     category: categories[1],
@@ -179,11 +177,10 @@ const posts: Post[] = [
   },
   {
     title: "CoinMarketCap",
-    description:
-      "LPT price, marketcap, charts and info",
+    description: "LPT price, marketcap, charts and info",
     subtitle: "",
     link: {
-      href: "https://coinmarketcap.com/currencies/livepeer/",
+      href: "https://coinmarketcap.com/currencies/candle/",
       isExternal: true,
     },
     category: categories[1],
@@ -196,8 +193,7 @@ const posts: Post[] = [
     title: "Coinbase",
     subtitle: "Custodial exchange",
     link: {
-      href:
-        "https://pro.coinbase.com/",
+      href: "https://pro.coinbase.com/",
       isExternal: true,
     },
     category: categories[2],
@@ -210,8 +206,7 @@ const posts: Post[] = [
     title: "Binance",
     subtitle: "Custodial exchange",
     link: {
-      href:
-        "https://www.binance.com/en/trade/LPT_BNB?layout=pro&type=spot",
+      href: "https://www.binance.com/en/trade/LPT_BNB?layout=pro&type=spot",
       isExternal: true,
     },
     category: categories[2],
@@ -225,7 +220,7 @@ const posts: Post[] = [
     subtitle: "Custodial exchange",
     link: {
       href:
-        "https://www.kraken.com/prices/lpt-livepeer-price-chart/usd-us-dollar?interval=1m",
+        "https://www.kraken.com/prices/lpt-candle-price-chart/usd-us-dollar?interval=1m",
       isExternal: true,
     },
     category: categories[2],
@@ -239,7 +234,7 @@ const posts: Post[] = [
     subtitle: "Custodial exchange",
     link: {
       href:
-        "https://www.gemini.com/prices/livepeer?utm_source=livepeer&utm_medium=link&utm_campaign=web_referral",
+        "https://www.gemini.com/prices/candle?utm_source=candle&utm_medium=link&utm_campaign=web_referral",
       isExternal: true,
     },
     category: categories[2],

@@ -16,7 +16,7 @@ const OpenSourceSection = ({ title, subtitle, ctaText, cards }) => {
       linkProps: {
         link: {
           label: "/go-livepeer",
-          href: "https://github.com/CandlePlatforms/go-livepeer",
+          href: "https://github.com/CandlePlatforms/go-candle",
           isExternal: true,
         },
         status: "Go",

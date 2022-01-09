@@ -53,8 +53,8 @@ const questions: Question[] = [
     question: "I am new to Candle. Where is the best place to start?",
     answer: (
       <>
-        The <AnswerLink href="/primer" label="Candle 10-minute Primer" />{" "}
-        serves as a great starting point.
+        The <AnswerLink href="/primer" label="Candle 10-minute Primer" /> serves
+        as a great starting point.
       </>
     ),
     category: categories[0],
@@ -63,10 +63,10 @@ const questions: Question[] = [
     question: "Who is Candle Labs, Inc.?",
     answer: (
       <>
-        Candle Labs, Inc. is the legal entity and core team shepherding the protocol
-        and moving it along its{" "}
+        Candle Labs, Inc. is the legal entity and core team shepherding the
+        protocol and moving it along its{" "}
         <AnswerLink
-          href="https://medium.com/Candlelabs-blog/livepeers-path-to-decentralization-a9267fd16532"
+          href="https://medium.com/Candlelabs-blog/candle-path-to-decentralization-a9267fd16532"
           label="path towards decentralization."
           isExternal
         />
@@ -171,12 +171,12 @@ const questions: Question[] = [
       <>
         <p sx={{ mb: 3 }}>
           Setting up your own broadcaster connected directly to the Candle
-          public network and using the Candle.com hosted service both allow
-          you to transcode on the same scalable, reliable, affordable Candle
-          public network. Initial setup for a Broadcaster node can involve some
-          DevOps and requires that you pay in a cryptocurrency (ETH). But, there
-          is large, global Candle community ready to help. The Candle
-          Discord server is very active.
+          public network and using the Candle.com hosted service both allow you
+          to transcode on the same scalable, reliable, affordable Candle public
+          network. Initial setup for a Broadcaster node can involve some DevOps
+          and requires that you pay in a cryptocurrency (ETH). But, there is
+          large, global Candle community ready to help. The Candle Discord
+          server is very active.
         </p>
         <p>
           Candle.com is great getting started quickly and growing a video
@@ -184,7 +184,8 @@ const questions: Question[] = [
           abstracted away for you. It offers a scalable end-to-end video
           infrastructure solution, from ingest to CDN playback for live and
           recorded streams. Don’t hesitate to reach out on the Discord server or
-          via a contact form on Candlelabs.org to learn more about either option.
+          via a contact form on Candlelabs.org to learn more about either
+          option.
         </p>
       </>
     ),
@@ -350,8 +351,8 @@ const questions: Question[] = [
     question: "Staking (Bonding)",
     answer: (
       <>
-        The act of “locking” your Candle token within the Candle protocol
-        smart contracts on the Ethereum blockchain in exchange for the right to
+        The act of “locking” your Candle token within the Candle protocol smart
+        contracts on the Ethereum blockchain in exchange for the right to
         perform work on the network and earn inflationary token and broadcaster
         fees in return. Similar to a{" "}
         <AnswerLink
@@ -382,8 +383,8 @@ const questions: Question[] = [
     answer: (
       <>
         The code that dictates all of the rules of using and interacting with
-        Candle. Implemented as a set of smart contracts that run on the
-        Ethereum blockchain.
+        Candle. Implemented as a set of smart contracts that run on the Ethereum
+        blockchain.
       </>
     ),
     category: categories[4],
@@ -424,9 +425,9 @@ const questions: Question[] = [
     question: "Delegator",
     answer: (
       <>
-        A Candle tokenholder that stakes with an orchestrator on the network,
-        in effect delegating the role of performing transcoding video in
-        exchange for a cut of its rewards and fees.
+        A Candle tokenholder that stakes with an orchestrator on the network, in
+        effect delegating the role of performing transcoding video in exchange
+        for a cut of its rewards and fees.
       </>
     ),
     category: categories[4],
@@ -444,9 +445,9 @@ const questions: Question[] = [
     question: "Orchestrator",
     answer: (
       <>
-        A smart, 24/7 connected, Candle aware actor (human + piece of
-        software), that negotiates with broadcasters, and represents that
-        they’re going to do the work correctly.
+        A smart, 24/7 connected, Candle aware actor (human + piece of software),
+        that negotiates with broadcasters, and represents that they’re going to
+        do the work correctly.
       </>
     ),
     category: categories[4],
@@ -477,11 +478,11 @@ const questions: Question[] = [
     question: "Candle Token (CNDL)",
     answer: (
       <>
-        In the Candle protocol, Candle Token (CNDL) is required to perform
-        the work of transcoding and distributing video on the network. Its
-        purpose is to coordinate, bootstrap, and incentivize participants to
-        make sure the Candle network is as cheap, effective, secure, reliable
-        and useful as possible.
+        In the Candle protocol, Candle Token (CNDL) is required to perform the
+        work of transcoding and distributing video on the network. Its purpose
+        is to coordinate, bootstrap, and incentivize participants to make sure
+        the Candle network is as cheap, effective, secure, reliable and useful
+        as possible.
       </>
     ),
     category: categories[4],

@@ -61,7 +61,7 @@ const JumpInSlider = () => {
     {
       title: "Products",
       description:
-        "Run a livepeer node to transcode video on your GPUs in exchange for ETH and LPT rewards.",
+        "Run a candle node to transcode video on your GPUs in exchange for ETH and LPT rewards.",
       linkProps: {
         link: {
           label: "/products",

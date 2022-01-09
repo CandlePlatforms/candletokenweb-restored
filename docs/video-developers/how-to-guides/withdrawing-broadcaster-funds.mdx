@@ -8,13 +8,13 @@ title: Withdraw Broadcasting Funds
 
 - Make sure your broadcaster is running
 
-## Withdraw broadcasting funds using `livepeer_cli`
+## Withdraw broadcasting funds using `candle_cli`
 
 When you want to withdraw your broadcasting funds you will need to wait a fixed
 number of rounds before gaining access to your funds. The first step for
 withdrawal is to request to unlock your funds.
 
-In `livepeer_cli`, select the following option:
+In `candle_cli`, select the following option:
 
 ```bash
 13. Invoke "unlock broadcasting funds"
@@ -26,7 +26,7 @@ transaction confirms, you will be able to withdraw your funds at the withdraw
 round that was specified in the prompt.
 
 If you change your mind and do no want to withdraw your funds, you can cancel
-your unlock request in `livepeer_cli` by selecting the following option:
+your unlock request in `candle_cli` by selecting the following option:
 
 ```bash
 14. Invoke "cancel unlock of broadcasting funds"
@@ -37,8 +37,7 @@ answering the wizard’s prompt, you should see a transaction submitted by your
 node. After the transaction confirms, your unlock request will be cancelled.
 Another way to cancel an unlock request is to deposit more funds.
 
-If you want to withdraw your funds, in `livepeer_cli` select the following
-option:
+If you want to withdraw your funds, in `candle_cli` select the following option:
 
 ```bash
 Invoke "withdraw broadcasting funds"

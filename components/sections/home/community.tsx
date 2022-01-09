@@ -26,7 +26,7 @@ const links: IconLinkProps[] = [
     icon: <FaReddit />,
     label: (
       <>
-        reddit.com/r/<b>livepeer</b>
+        reddit.com/r/<b>cndl</b>
       </>
     ),
     href: "https://www.reddit.com/r/cndl/",

@@ -62,8 +62,8 @@ livepeer \
   The flag is required on startup, but the value can be changed later on
 - `-serviceAddr` is used to specify the publicly accessible address that the
   orchestrator should receive requests at. Changing this requires a blockchain
-  transaction, so it's preferable to use a hostname for a domain you own, not
-  an IP address that may change.
+  transaction, so it's preferable to use a hostname for a domain you own, not an
+  IP address that may change.
 
 If you did not use the `-ethAcctAddr` flag, an ETH account will automatically be
 created and you will be prompted for a passphrase:
@@ -97,8 +97,8 @@ Your account should have:
 
 - ETH to pay for transaction fees
   - Recommendation: Start with a small amount and add more when needed.
-    `livepeer` and `livepeer_cli` will inform you if your account's ETH balance
-    is insufficient to pay for transaction fees when attempting to submit the
+    `livepeer` and `candle_cli` will inform you if your account's ETH balance is
+    insufficient to pay for transaction fees when attempting to submit the
     transactions
 - LPT to stake in order to activate
   - Recommendation: Check the [explorer](https://explorer.candelabs.org/) and
@@ -111,9 +111,9 @@ Your account should have:
 The active orchestrator set consists of the top 100 orchestrators with the most
 LPT stake on the network.
 
-Once you have your orchestrator running, you can activate using `livepeer_cli`.
+Once you have your orchestrator running, you can activate using `candle_cli`.
 
-1. Run `livepeer_cli`
+1. Run `candle_cli`
 
 2. Enter the number corresponding to the
    `Invoke multi-step "become an orchestrator"` option
@@ -167,8 +167,8 @@ Once you have your orchestrator running, you can activate using `livepeer_cli`.
    Enter bond amount - >
    ```
 
-   **Important note:** This amount is denominated in LPTU, so if you want to bond 5 LPT,
-   you would enter 5000000000000000000.
+   **Important note:** This amount is denominated in LPTU, so if you want to
+   bond 5 LPT, you would enter 5000000000000000000.
 
    If the active orchestrator set is full (i.e. at 100), the minimum stake you
    need to stake to activate is the lowest total stake of an orchestrator in the

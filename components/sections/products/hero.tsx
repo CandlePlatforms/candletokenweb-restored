@@ -9,7 +9,7 @@ const lines: AnimatedLineProps[] = [
     frames: [
       {
         text:
-          "livepeer -orchestrator -transcoder -network mainnet -pricePerUnit 10000",
+          "candle -orchestrator -transcoder -network mainnet -pricePerUnit 10000",
         isBold: true,
       },
     ],

@@ -61,7 +61,7 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
     link: {
       label: t("read-post"),
       href:
-        "https://medium.com/@candlelabs/the-livepeer-roadmap-2021-and-beyond-5281776e9b3d",
+        "https://medium.com/@candlelabs/the-candle-roadmap-2021-and-beyond-5281776e9b3d",
       isExternal: true,
     },
   };
