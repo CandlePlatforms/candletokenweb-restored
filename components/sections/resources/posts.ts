@@ -177,7 +177,7 @@ const posts: Post[] = [
   },
   {
     title: "CoinMarketCap",
-    description: "LPT price, marketcap, charts and info",
+    description: "CNDL price, marketcap, charts and info",
     subtitle: "",
     link: {
       href: "https://coinmarketcap.com/currencies/candle/",
@@ -206,7 +206,7 @@ const posts: Post[] = [
     title: "Binance",
     subtitle: "Custodial exchange",
     link: {
-      href: "https://www.binance.com/en/trade/LPT_BNB?layout=pro&type=spot",
+      href: "https://www.binance.com/en/trade/CNDL_BNB?layout=pro&type=spot",
       isExternal: true,
     },
     category: categories[2],
@@ -220,7 +220,7 @@ const posts: Post[] = [
     subtitle: "Custodial exchange",
     link: {
       href:
-        "https://www.kraken.com/prices/lpt-candle-price-chart/usd-us-dollar?interval=1m",
+        "https://www.kraken.com/prices/CNDL-candle-price-chart/usd-us-dollar?interval=1m",
       isExternal: true,
     },
     category: categories[2],
@@ -247,7 +247,7 @@ const posts: Post[] = [
     title: "Matcha",
     subtitle: "Non-custodial exchange",
     link: {
-      href: "https://matcha.xyz/markets/LPT/ETH",
+      href: "https://matcha.xyz/markets/CNDL/ETH",
       isExternal: true,
     },
     category: categories[2],
@@ -288,7 +288,7 @@ const posts: Post[] = [
     title: "OKEx",
     subtitle: "Custodial exchange (Asia only)",
     link: {
-      href: "https://www.okex.com/trade-spot/lpt-usdt",
+      href: "https://www.okex.com/trade-spot/CNDL-usdt",
       isExternal: true,
     },
     category: categories[2],
@@ -300,7 +300,7 @@ const posts: Post[] = [
   {
     title: "Poloniex",
     subtitle: "Custodial exchange (Asia only)",
-    link: { href: "https://poloniex.com/exchange#btc_lpt", isExternal: true },
+    link: { href: "https://poloniex.com/exchange#btc_CNDL", isExternal: true },
     category: categories[2],
     image: {
       src: "/images/posts/post-cover-6.png",
@@ -310,7 +310,7 @@ const posts: Post[] = [
   {
     title: "Gate.io",
     subtitle: "Custodial exchange",
-    link: { href: "https://www.gate.io/en/trade/LPT_USDT", isExternal: true },
+    link: { href: "https://www.gate.io/en/trade/CNDL_USDT", isExternal: true },
     category: categories[2],
     image: {
       src: "/images/posts/post-cover-7.png",

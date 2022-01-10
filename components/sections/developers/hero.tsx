@@ -24,7 +24,7 @@ const lines: AnimatedLineProps[] = [
     frames: [
       {
         text:
-          "Using Ethereum account: 0x4a5E4f02539326cCdA69757a7f04EA2960985fa8",
+          "Using Ethereum account: 0x4a5E4f02539326cCdA69757w3f04EAEXd8923da4",
       },
     ],
     delay: 400,
