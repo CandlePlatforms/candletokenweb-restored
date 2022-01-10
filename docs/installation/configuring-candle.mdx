@@ -30,7 +30,7 @@ candle \
 export LP_BROADCASTER=true
 export LP_NETWORK='mainnet'
 export LP_ETHURL='https://mainnet.infura.io/v3/<PROJECT_ID>'
-livepeer
+candle
 ```
 
 **Important: If you use environment variables and also supply command-line
@@ -40,7 +40,7 @@ flags, the flags will override environment variables.**
 
 `candle` can be configured using a config file as follows:
 
-#### livepeer.conf
+#### candle.conf
 
 ```
 broadcaster
@@ -49,7 +49,7 @@ ethUrl https://mainnet.infura.io/v3/<PROJECT_ID>
 ```
 
 ```bash
-livepeer -config livepeer.conf
+candle -config candle.conf
 ```
 
 **Important: If you use a config file and also supply environment variables or

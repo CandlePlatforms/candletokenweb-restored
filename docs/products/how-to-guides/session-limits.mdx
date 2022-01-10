@@ -39,25 +39,6 @@ calculate it similarly for a different ABR ladder.
 
 ### Evaluate hardware
 
-The following assumes that you have `livepeer_bench` installed and have the
-[common output rendition configuration](https://github.com/CandlePlatforms/go-livepeer/blob/master/cmd/livepeer_bench/transcodingOptions.json)
-stored in a file called `transcodingOptions.json`.
-
-You can use the following script to benchmark transcoding for a range of
-concurrent sessions:
-
-```bash
-#!/bin/bash
-for i in {1..20}
-do
-    ./livepeer_bench \
-        -in bbb/source.m3u8 \
-        -transcodingOptions transcodingOptions.json \
-        -nvidia 0 \ # Only required for transcoding with Nvidia GPUs
-        -concurrentSessions $i |& grep "Duration Ratio" >> bench.log
-done
-```
-
 If you are transcoding with multiple identical Nvidia GPUs, benchmarking with a
 single GPU should suffice and then you can multiply the limit for a single GPU
 by the number of available GPUs. If you are transcoding multiple different
@@ -88,7 +69,7 @@ upload/download within real-time.
 ### Evaluate bandwidth
 
 The most
-[common output rendition configuration](https://github.com/CandlePlatforms/go-livepeer/blob/master/cmd/livepeer_bench/transcodingOptions.json)
+[common output rendition configuration](https://github.com/CandlePlatforms/go-candle/blob/master/cmd/candle_bench/transcodingOptions.json)
 found on the network is (assuming source is `1080p30fps`):
 
 ```bash
