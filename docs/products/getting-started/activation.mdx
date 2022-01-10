@@ -6,7 +6,7 @@ title: Activation
 
 ## Pre-requisites
 
-- Make sure you have `livepeer`[installed](/docs/installation/install-livepeer)
+- Make sure you have `candle`[installed](/docs/installation/install-candle)
 - Make sure you have access to an
   [Ethereum JSON-RPC URL](/docs/installation/connect-to-ethereum)
 - If you are transcoding with Nvidia GPUs:
@@ -37,7 +37,7 @@ IDs from 0 through 4.
 Start your orchestrator before activation:
 
 ```bash
-livepeer \
+candle \
     -network mainnet \
     -ethUrl <ETH_URL> \
     -ethAcctAddr <ETH_ACCT_ADDR> \ # Only required if you already have an ETH account you want to use
@@ -62,8 +62,8 @@ livepeer \
   The flag is required on startup, but the value can be changed later on
 - `-serviceAddr` is used to specify the publicly accessible address that the
   orchestrator should receive requests at. Changing this requires a blockchain
-  transaction, so it's preferable to use a hostname for a domain you own, not
-  an IP address that may change.
+  transaction, so it's preferable to use a hostname for a domain you own, not an
+  IP address that may change.
 
 If you did not use the `-ethAcctAddr` flag, an ETH account will automatically be
 created and you will be prompted for a passphrase:
@@ -91,16 +91,16 @@ I0302 15:27:26.456804   25418 rpc.go:167] Listening for RPC on :8935
 I0302 15:27:28.463151   25418 rpc.go:207] Received Ping request
 ```
 
-## Fund your account with ETH and LPT
+## Fund your account with ETH and CNDL
 
 Your account should have:
 
 - ETH to pay for transaction fees
-  - Recommendation: Start with a small amount and add more when needed.
-    `livepeer` and `livepeer_cli` will inform you if your account's ETH balance
-    is insufficient to pay for transaction fees when attempting to submit the
+  - Recommendation: Start with a small amount and add more when needed. `candle`
+    and `candle_cli` will inform you if your account's ETH balance is
+    insufficient to pay for transaction fees when attempting to submit the
     transactions
-- LPT to stake in order to activate
+- CNDL to stake in order to activate
   - Recommendation: Check the [explorer](https://explorer.candelabs.org/) and
     find the 100th orchestrator with the most stake. This is the amount of stake
     required for you to activate. Note that more stake will help you receive
@@ -109,17 +109,17 @@ Your account should have:
 ## Activate
 
 The active orchestrator set consists of the top 100 orchestrators with the most
-LPT stake on the network.
+CNDL stake on the network.
 
-Once you have your orchestrator running, you can activate using `livepeer_cli`.
+Once you have your orchestrator running, you can activate using `candle_cli`.
 
-1. Run `livepeer_cli`
+1. Run `candle_cli`
 
 2. Enter the number corresponding to the
    `Invoke multi-step "become an orchestrator"` option
 
-3. Set the percentage of LPT rewards that you will keep (the rest will be shared
-   with your delegators):
+3. Set the percentage of CNDL rewards that you will keep (the rest will be
+   shared with your delegators):
 
    ```bash
    Enter block reward cut percentage (current=0 default=10) - >
@@ -160,22 +160,7 @@ Once you have your orchestrator running, you can activate using `livepeer_cli`.
    This should be the same as the value used with the `-serviceAddr` flag when
    starting your orchestrator.
 
-8. Set the amount of LPTU (1 LPT = 1e18 LPTU) that you want to stake:
-
-   ```bash
-   You must bond to yourself in order to become a orchestrator
-   Enter bond amount - >
-   ```
-
-   **Important note:** This amount is denominated in LPTU, so if you want to bond 5 LPT,
-   you would enter 5000000000000000000.
-
-   If the active orchestrator set is full (i.e. at 100), the minimum stake you
-   need to stake to activate is the lowest total stake of an orchestrator in the
-   active set. You can find this information in the
-   [explorer](https://explorer.candelabs.org/).
-
-9. Wait for transactions to confirm. You should see the logs of your
+8. Wait for transactions to confirm. You should see the logs of your
    orchestrator indicating transactions being submitted and confirmed on-chain.
 
    After the transactions have confirmed, your orchestrator will join the active

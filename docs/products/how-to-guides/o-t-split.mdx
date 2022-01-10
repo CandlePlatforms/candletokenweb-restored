@@ -12,7 +12,7 @@ title: Connect an Orchestrator with Separate Transcoders
 ## Run a standalone orchestrator
 
 ```bash
-livepeer \
+candle \
     -network mainnet \
     -ethURL <ETH_URL> \
     -orchestrator \
@@ -32,7 +32,7 @@ machine from the orchestrator. These instructions can be used to connect as many
 transcoders as you want to the orchestrator.
 
 ```bash
-livepeer -transcoder \
+candle -transcoder \
 	-nvidia <NVIDIA_GPU_IDs> \ # Only required for transcoding with Nvidia GPUs
 	-orchSecret <ORCH_SECRET> \
 	-orchAddr <SERVICE_ADDR>

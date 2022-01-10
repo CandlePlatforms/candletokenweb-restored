@@ -5,25 +5,24 @@ title: Subgraph API Overview
 # Subgraph API Overview
 
 This section explains the Candle Subgraph and how to interact with it. The
-Candle subgraph indexes data from the Candle contracts over time. It
-organizes data about orchestrators, delegators, and more. The subgraph updates
-any time a transaction is made on Candle. It runs on
-[The Graph](https://thegraph.com/) protocol's hosted service and can be openly
-queried.
+Candle subgraph indexes data from the Candle contracts over time. It organizes
+data about orchestrators, delegators, and more. The subgraph updates any time a
+transaction is made on Candle. It runs on [The Graph](https://thegraph.com/)
+protocol's hosted service and can be openly queried.
 
 ## Resources
 
-- [Subgraph Explorer](https://thegraph.com/explorer/subgraph/livepeer/livepeer) -
+- [Subgraph Explorer](https://thegraph.com/explorer/subgraph/candle/candle) -
   sandbox for querying data and endpoints for developers.
-- [Candle Subgraph](https://github.com/CandlePlatforms/livepeerjs/tree/master/packages/subgraph) -
+- [Candle Subgraph](https://github.com/CandlePlatforms/candlejs/tree/master/packages/subgraph) -
   source code for deployed subgraph.
 
 ## Usage
 
-The subgraph provides a snapshot of the current state of Candle and also
-tracks historical data. It is currently used to power
-[explorer.candelabs.org](https://explorer.candelabs.org). **It is not intended to
-be used as a data source for structuring transactions (contracts should be
+The subgraph provides a snapshot of the current state of Candle and also tracks
+historical data. It is currently used to power
+[explorer.candelabs.org](https://explorer.candelabs.org). **It is not intended
+to be used as a data source for structuring transactions (contracts should be
 referenced directly for the most reliable live data).**
 
 ## Making Queries

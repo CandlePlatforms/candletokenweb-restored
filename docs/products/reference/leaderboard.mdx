@@ -32,17 +32,17 @@ as well.
 
 The software used to run these tests consists of:
 
-- A [broadcaster node](https://github.com/CandlePlatforms/go-livepeer)
+- A [broadcaster node](https://github.com/CandlePlatforms/go-candle)
 - A [stream-tester](https://github.com/CandlePlatforms/stream-tester) that sends
   streams to the broadcaster
 - A
-  [monitoring instance](https://github.com/CandlePlatforms/docker-livepeer/tree/master/monitoring)
+  [monitoring instance](https://github.com/CandlePlatforms/docker-candle/tree/master/monitoring)
   that collects metrics from the broadcaster
 - An
   [orch-tester process](https://github.com/CandlePlatforms/stream-tester/tree/master/cmd/orch-tester)
   that automates tests and saves metrics
-- A [leaderboard API](https://github.com/CandlePlatforms/leaderboard-serverless) that
-  serves aggregated and raw test metrics
+- A [leaderboard API](https://github.com/CandlePlatforms/leaderboard-serverless)
+  that serves aggregated and raw test metrics
 
 ## What happens during a transcoding test?
 
@@ -183,8 +183,8 @@ A few things you can explore to improve the speed of transcoding include:
 
 A few things you can explore to improve the speed of data upload/download:
 
-- Review the [bandwidth requirements](/docs/products/reference/bandwidth)
-  and consider upgrading your bandwidth
+- Review the [bandwidth requirements](/docs/products/reference/bandwidth) and
+  consider upgrading your bandwidth
 
 ## How can I view the historical test results for an orchestrator on the performance leaderboard?
 

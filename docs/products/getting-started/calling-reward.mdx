@@ -6,18 +6,18 @@ title: Calling Reward
 
 By default, an active orchestrator will automatically call reward in each round
 meaning that it will submit an Ethereum transaction that will distribute newly
-minted LPT rewards to itself and its delegators.
+minted CNDL rewards to itself and its delegators.
 
-The amount of LPT rewards distributed by the reward call will depend on the
+The amount of CNDL rewards distributed by the reward call will depend on the
 orchestrator's stake (includes both its own self-delegated stake and the stake
 of its delegators). Note that it is possible for the ETH transaction cost of
-calling reward to exceed the amount of LPT rewards distributed for
+calling reward to exceed the amount of CNDL rewards distributed for
 orchestrator's with very low stake.
 
 As you are getting started, the recommendation is to initially disable automatic
-reward calls, manually make reward calls via `livepeer_cli` in each round based
-on whether it makes economic senese to do so and enable automatic reward calls
-only when you feel comfortable with the amount of LPT rewards expected to be
+reward calls, manually make reward calls via `candle_cli` in each round based on
+whether it makes economic senese to do so and enable automatic reward calls only
+when you feel comfortable with the amount of CNDL rewards expected to be
 distributed relative to the ETH transaction cost.
 
 ## Pre-requisites
@@ -31,14 +31,14 @@ You can disable automatic reward calls with the `-reward=false` flag (all other
 flags omitted):
 
 ```bash
-livepeer \
+candle \
     -network mainnet \
     -reward=false
 ```
 
 ## Manually call reward
 
-You can manually call reward via `livepeer_cli`:
+You can manually call reward via `candle_cli`:
 
 1. Estimate the current ETH transacton cost for calling reward.
 
@@ -48,7 +48,7 @@ You can manually call reward via `livepeer_cli`:
      [gasnow](https://www.gasnow.org/)
    - The ETH transaction cost will be the gas cost multiplied by the gas price
 
-2. Make sure `livepeer` is running and run `livepeer_cli`
+2. Make sure `candle` is running and run `candle_cli`
 
 3. Enter the number corresponding to the `Invoke "reward"` option
 

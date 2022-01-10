@@ -9,7 +9,7 @@ const lines: AnimatedLineProps[] = [
     frames: [
       {
         text:
-          "livepeer -orchestrator -transcoder -network mainnet -pricePerUnit 10000",
+          "candle -orchestrator -transcoder -network mainnet -pricePerUnit 10000",
         isBold: true,
       },
     ],
@@ -72,7 +72,7 @@ const InfrastructureHero = ({ title, subtitle, cta }) => (
         }}>
         <CodeEditorBox
           sx={{ height: "100%" }}
-          tabs={[{ label: "bash", isSelected: true }, { label: "go-livepeer" }]}
+          tabs={[{ label: "bash", isSelected: true }, { label: "go-candle" }]}
           withLineNumbers>
           <CodeStoryAnimation lines={lines} />
         </CodeEditorBox>
